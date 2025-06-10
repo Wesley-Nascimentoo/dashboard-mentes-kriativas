@@ -1,16 +1,6 @@
 
 {
-  "Planilha2": [
-    {
-      "Rótulos de Linha": "NÃO ATINGIRAM A META",
-      "Contagem de Nome": 48
-    },
-    {
-      "Rótulos de Linha": "Total Geral",
-      "Contagem de Nome": 48
-    }
-  ],
-  "src": [
+  "src":[
     {
       "Matricula": 500360,
       "Nome": "LEANDRO OLIVEIRA DE SOUZA",
@@ -330,7 +320,13 @@
       "Descrição Seção": "1063218 - ENG. PROCESSO AM"
     }
   ],
-  "kpi": [
+  "atual":[
+    {
+      "Meta atual": 2,
+      "Data limite": "6/20/2025"
+    }
+  ],
+  "kpi":[
     {
       "Mês": "Janeiro",
       "Meta": 67,
@@ -392,7 +388,7 @@
       "Ideias enviadas": 0
     }
   ],
-  "anual": [
+  "anual":[
     {
       "Meta": 810,
       "Ideias enviadas": 404

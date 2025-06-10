@@ -34,7 +34,8 @@ const ConsultaFuncionario = () => {
 
       if (funcionario) {
         // Calcular dados baseados na nova estrutura
-        const metaAtual = 6;
+        const metaAtual = mentesData.atual[0]["Meta atual"];
+        const dataLimite = mentesData.atual[0]["Data limite"];
         const metaAnual = 12;
         const ideiasSubmitidas = funcionario.total;
         
@@ -45,6 +46,7 @@ const ConsultaFuncionario = () => {
           ideiasSubmitidas: ideiasSubmitidas,
           metaAtual: metaAtual,
           metaAnual: metaAnual,
+          dataLimite: dataLimite,
           atingiuMetaAtual: ideiasSubmitidas >= metaAtual,
           atingiuMetaAnual: ideiasSubmitidas >= metaAnual,
           percentualAnual: Math.round((ideiasSubmitidas / metaAnual) * 100),
@@ -130,11 +132,20 @@ const ConsultaFuncionario = () => {
               </CardDescription>
             </CardHeader>
             <CardContent>
-              <div className="grid gap-4 md:grid-cols-3">
+              <div className="grid gap-4 md:grid-cols-4">
                 <div>
                   <p className="text-sm text-muted-foreground">Matrícula</p>
                   <div className="text-lg font-bold text-blue-600 mt-1">
                     {funcionarioEncontrado.id}
+                  </div>
+                </div>
+                <div>
+                  <p className="text-sm text-muted-foreground">Data limite meta atual</p>
+                  <div className="flex items-center gap-2 mt-1">
+                    <Calendar className="h-4 w-4 text-blue-500" />
+                    <span className="font-medium">
+                      {funcionarioEncontrado.dataLimite}
+                    </span>
                   </div>
                 </div>
                 <div>

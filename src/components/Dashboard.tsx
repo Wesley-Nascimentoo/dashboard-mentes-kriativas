@@ -14,7 +14,7 @@ const Dashboard = () => {
 
   // Total de funcionários e funcionários com metas
   const totalFuncionarios = mentesData.src.length;
-  const metaAtual = 6; // Meta atual padrão
+  const metaAtual = mentesData.atual[0]["Meta atual"];
   const metaAnualFuncionario = 12; // Meta anual padrão
   
   const funcionariosMetaAtual = mentesData.src.filter(f => f.total >= metaAtual).length;
@@ -61,7 +61,7 @@ const Dashboard = () => {
           <CardContent>
             <div className="text-3xl font-bold text-green-800 dark:text-green-200">{funcionariosMetaAtual}/{totalFuncionarios}</div>
             <p className="text-sm text-green-600 dark:text-green-400 mt-1">
-              {percentualMetaAtual}% atingiram a meta atual
+              {percentualMetaAtual}% atingiram a meta atual ({metaAtual} ideias)
             </p>
             <Progress value={percentualMetaAtual} className="mt-3 h-2" />
           </CardContent>
