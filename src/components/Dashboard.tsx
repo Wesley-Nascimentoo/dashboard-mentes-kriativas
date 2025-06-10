@@ -24,8 +24,6 @@ const Dashboard = () => {
   const percentualMetaAnualFunc = Math.round((funcionariosMetaAnual / totalFuncionarios) * 100);
 
   const totalDeIdeiasNoMesAtual = mentesData.kpi[5]
-
-  console.log(totakDeIdeiasMesAtual)
   
   // Dados para o gráfico mensal
   const dadosGraficoMensal = mentesData.kpi.map(item => ({
