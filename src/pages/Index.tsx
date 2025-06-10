@@ -19,8 +19,9 @@ const Index = () => {
       <footer className="border-t bg-card mt-12">
         <div className="container mx-auto px-4 py-4">
           <div className="text-center text-sm text-muted-foreground">
-            <p>© 2024 Programa Mentes Kriativas - Setor de Engenharia</p>
+            <p>© 2025 Programa Mentes Kriativas - Setor de Engenharia</p>
             <p className="mt-1">Dashboard de acompanhamento de submissões de ideias</p>
+            <p className="mt-1">Desenvolvido por Wesley S. do Nascimento</p>
           </div>
         </div>
       </footer>
