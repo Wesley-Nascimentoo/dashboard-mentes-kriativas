@@ -15,7 +15,7 @@ const Dashboard = () => {
   // Total de funcionários e funcionários com metas
   const totalFuncionarios = mentesData.src.length;
   const metaAtual = mentesData.atual[0]["Meta atual"];
-  const metaAnualFuncionario = 12; // Meta anual padrão
+  const metaAnualFuncionario = 14; // Meta anual padrão
   
   const funcionariosMetaAtual = mentesData.src.filter(f => f.total >= metaAtual).length;
   const funcionariosMetaAnual = mentesData.src.filter(f => f.total >= metaAnualFuncionario).length;
