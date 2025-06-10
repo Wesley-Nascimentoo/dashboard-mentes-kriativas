@@ -139,7 +139,7 @@ const ConsultaFuncionario = () => {
                     {funcionarioEncontrado.id}
                   </div>
                 </div>
-                {/* <div>
+                <div>
                   <p className="text-sm text-muted-foreground">Data limite meta atual</p>
                   <div className="flex items-center gap-2 mt-1">
                     <Calendar className="h-4 w-4 text-blue-500" />
@@ -149,15 +149,6 @@ const ConsultaFuncionario = () => {
                   </div>
                 </div>
                 <div>
-                  <p className="text-sm text-muted-foreground">Última submissão</p>
-                  <div className="flex items-center gap-2 mt-1">
-                    <Calendar className="h-4 w-4 text-blue-500" />
-                    <span className="font-medium">
-                      {new Date(funcionarioEncontrado.ultimaSubmissao).toLocaleDateString('pt-BR')}
-                    </span>
-                  </div>
-                </div>
-                <div> */}
                   <p className="text-sm text-muted-foreground">Total de ideias submetidas</p>
                   <div className="text-2xl font-bold text-blue-600 mt-1">
                     {funcionarioEncontrado.ideiasSubmitidas}
