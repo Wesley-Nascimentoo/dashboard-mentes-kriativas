@@ -2,141 +2,153 @@
 {
   "metasAno": {
     "2024": {
-      "metaTotal": 500,
-      "submissoes": 387,
-      "percentualAtingido": 77.4
+      "metaTotal": 200,
+      "submissoes": 156,
+      "percentualAtingido": 78
     }
   },
   "metasMensais": [
     {
       "mes": "Janeiro",
-      "meta": 40,
-      "submissoes": 35,
-      "percentual": 87.5
+      "meta": 15,
+      "submissoes": 12,
+      "percentual": 80
     },
     {
       "mes": "Fevereiro",
-      "meta": 40,
-      "submissoes": 42,
-      "percentual": 105
+      "meta": 15,
+      "submissoes": 14,
+      "percentual": 93
     },
     {
       "mes": "Março",
-      "meta": 40,
-      "submissoes": 38,
-      "percentual": 95
+      "meta": 18,
+      "submissoes": 16,
+      "percentual": 89
     },
     {
       "mes": "Abril",
-      "meta": 40,
-      "submissoes": 45,
-      "percentual": 112.5
+      "meta": 18,
+      "submissoes": 15,
+      "percentual": 83
     },
     {
       "mes": "Maio",
-      "meta": 40,
-      "submissoes": 33,
-      "percentual": 82.5
+      "meta": 20,
+      "submissoes": 18,
+      "percentual": 90
     },
     {
       "mes": "Junho",
-      "meta": 40,
-      "submissoes": 41,
-      "percentual": 102.5
-    },
-    {
-      "mes": "Julho",
-      "meta": 40,
-      "submissoes": 39,
-      "percentual": 97.5
-    },
-    {
-      "mes": "Agosto",
-      "meta": 40,
-      "submissoes": 44,
+      "meta": 20,
+      "submissoes": 22,
       "percentual": 110
     },
     {
+      "mes": "Julho",
+      "meta": 18,
+      "submissoes": 14,
+      "percentual": 78
+    },
+    {
+      "mes": "Agosto",
+      "meta": 18,
+      "submissoes": 16,
+      "percentual": 89
+    },
+    {
       "mes": "Setembro",
-      "meta": 40,
-      "submissoes": 37,
-      "percentual": 92.5
+      "meta": 16,
+      "submissoes": 13,
+      "percentual": 81
     },
     {
       "mes": "Outubro",
-      "meta": 40,
-      "submissoes": 33,
-      "percentual": 82.5
+      "meta": 16,
+      "submissoes": 8,
+      "percentual": 50
+    },
+    {
+      "mes": "Novembro",
+      "meta": 16,
+      "submissoes": 5,
+      "percentual": 31
+    },
+    {
+      "mes": "Dezembro",
+      "meta": 16,
+      "submissoes": 3,
+      "percentual": 19
     }
   ],
   "funcionarios": {
-    "totalFuncionarios": 150,
-    "funcionariosComMeta": 142,
-    "funcionariosMetaAtual": 89,
-    "funcionariosMetaAnual": 67,
-    "percentualMetaAtual": 62.7,
-    "percentualMetaAnual": 47.2
+    "totalFuncionarios": 85,
+    "funcionariosComMeta": 72,
+    "funcionariosMetaAtual": 48,
+    "funcionariosMetaAnual": 34,
+    "percentualMetaAtual": 67,
+    "percentualMetaAnual": 47
   },
   "consultaFuncionario": [
     {
       "id": "001",
-      "nome": "Ana Silva Santos",
-      "departamento": "Engenharia de Software",
-      "metaAnual": 8,
-      "metaAtual": 3,
-      "ideiasSubmitidas": 6,
+      "nome": "Maria Silva Santos",
+      "departamento": "Engenharia de Processos",
+      "ideiasSubmitidas": 8,
+      "metaAtual": 4,
+      "metaAnual": 12,
       "atingiuMetaAtual": true,
       "atingiuMetaAnual": false,
-      "percentualAnual": 75,
+      "percentualAnual": 67,
       "ultimaSubmissao": "2024-10-15"
     },
     {
       "id": "002",
-      "nome": "Carlos Eduardo Lima",
-      "departamento": "Engenharia Mecânica",
-      "metaAnual": 10,
+      "nome": "João Carlos Oliveira",
+      "departamento": "Engenharia de Produto",
+      "ideiasSubmitidas": 15,
       "metaAtual": 4,
-      "ideiasSubmitidas": 12,
+      "metaAnual": 12,
       "atingiuMetaAtual": true,
       "atingiuMetaAnual": true,
-      "percentualAnual": 120,
-      "ultimaSubmissao": "2024-10-20"
+      "percentualAnual": 125,
+      "ultimaSubmissao": "2024-11-20"
     },
     {
       "id": "003",
-      "nome": "Mariana Costa Oliveira",
-      "departamento": "Engenharia Civil",
-      "metaAnual": 6,
-      "metaAtual": 2,
-      "ideiasSubmitidas": 4,
-      "atingiuMetaAtual": true,
-      "atingiuMetaAnual": false,
-      "percentualAnual": 66.7,
-      "ultimaSubmissao": "2024-10-18"
-    },
-    {
-      "id": "004",
-      "nome": "Roberto Fernandes",
-      "departamento": "Engenharia Elétrica",
-      "metaAnual": 8,
-      "metaAtual": 3,
-      "ideiasSubmitidas": 2,
+      "nome": "Ana Paula Costa",
+      "departamento": "Engenharia de Qualidade",
+      "ideiasSubmitidas": 3,
+      "metaAtual": 4,
+      "metaAnual": 12,
       "atingiuMetaAtual": false,
       "atingiuMetaAnual": false,
       "percentualAnual": 25,
       "ultimaSubmissao": "2024-09-30"
     },
     {
+      "id": "004",
+      "nome": "Carlos Eduardo Lima",
+      "departamento": "Engenharia de Manutenção",
+      "ideiasSubmitidas": 12,
+      "metaAtual": 4,
+      "metaAnual": 12,
+      "atingiuMetaAtual": true,
+      "atingiuMetaAnual": true,
+      "percentualAnual": 100,
+      "ultimaSubmissao": "2024-11-25"
+    },
+    {
       "id": "005",
-      "nome": "Lucia Maria dos Santos",
-      "departamento": "Engenharia de Produção",
-      "metaAnual": 9,
-      "metaAtual": 3,
-      "ideiasSubmitidas": 7,
+      "nome": "Fernanda Rodrigues",
+      "departamento": "Engenharia de Automação",
+      "ideiasSubmitidas": 6,
+      "metaAtual": 4,
+      "metaAnual": 12,
       "atingiuMetaAtual": true,
       "atingiuMetaAnual": false,
-      "percentualAnual": 77.8,
-      "ultimaSubmissao": "2024-10-22"
+      "percentualAnual": 50,
+      "ultimaSubmissao": "2024-11-10"
     }
   ]
 }
