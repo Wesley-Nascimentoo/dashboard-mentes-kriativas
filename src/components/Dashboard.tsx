@@ -91,7 +91,7 @@ const Dashboard = () => {
             </div>
           </CardHeader>
           <CardContent>
-            <div className="text-3xl font-bold text-orange-800 dark:text-orange-200">{totalFuncionarios}</div>
+            <div className="text-3xl font-bold text-orange-800 dark:text-orange-200">{50}</div>
             <p className="text-sm text-orange-600 dark:text-orange-400 mt-1">
               Funcionários cadastrados
             </p>
