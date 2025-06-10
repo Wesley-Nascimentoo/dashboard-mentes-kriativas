@@ -23,9 +23,7 @@ const Dashboard = () => {
   const percentualMetaAtual = Math.round((funcionariosMetaAtual / totalFuncionarios) * 100);
   const percentualMetaAnualFunc = Math.round((funcionariosMetaAnual / totalFuncionarios) * 100);
 
-  const totalDeIdeiasNoMesAtual = mentesData.kpi.filter((item) => {
-    if (item.Mês === "Junho")
-  })[0]
+  const totalDeIdeiasNoMesAtual = mentesData.kpi[5].Mês
 
   // Dados para o gráfico mensal
   const dadosGraficoMensal = mentesData.kpi.map(item => ({
