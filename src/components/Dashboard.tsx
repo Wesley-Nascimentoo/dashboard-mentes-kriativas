@@ -37,7 +37,7 @@ const Dashboard = () => {
       <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-4">
         <Card className="group hover:shadow-lg transition-all duration-300 border-l-4 border-l-blue-500 bg-gradient-to-br from-blue-50 to-blue-100 dark:from-blue-950 dark:to-blue-900">
           <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-3">
-            <CardTitle className="text-sm font-medium text-blue-700 dark:text-blue-300">Meta Anual 2024</CardTitle>
+            <CardTitle className="text-sm font-medium text-blue-700 dark:text-blue-300">Meta Anual 2025</CardTitle>
             <div className="w-10 h-10 bg-blue-500 rounded-full flex items-center justify-center">
               <Target className="h-5 w-5 text-white" />
             </div>
@@ -205,7 +205,7 @@ const Dashboard = () => {
                 <Lightbulb className="h-6 w-6 text-white" />
               </div>
               <div className="text-3xl font-bold text-blue-600 mb-1">{totalIdeiasAnual}</div>
-              <p className="text-sm text-muted-foreground">Ideias Submetidas em 2024</p>
+              <p className="text-sm text-muted-foreground">Ideias Submetidas em 2025</p>
             </div>
             <div className="text-center p-6 bg-white dark:bg-gray-800 rounded-xl shadow-md hover:shadow-lg transition-shadow">
               <div className="w-12 h-12 bg-green-500 rounded-full flex items-center justify-center mx-auto mb-3">
