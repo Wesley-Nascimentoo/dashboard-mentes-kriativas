@@ -85,15 +85,15 @@ const Dashboard = () => {
 
         <Card className="group hover:shadow-lg transition-all duration-300 border-l-4 border-l-orange-500 bg-gradient-to-br from-orange-50 to-orange-100 dark:from-orange-950 dark:to-orange-900">
           <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-3">
-            <CardTitle className="text-sm font-medium text-orange-700 dark:text-orange-300">Total de Participantes</CardTitle>
+            <CardTitle className="text-sm font-medium text-orange-700 dark:text-orange-300">Meta de envio ideias no mês</CardTitle>
             <div className="w-10 h-10 bg-orange-500 rounded-full flex items-center justify-center">
-              <Users className="h-5 w-5 text-white" />
+              <Target className="h-5 w-5 text-white" />
             </div>
           </CardHeader>
           <CardContent>
-            <div className="text-3xl font-bold text-orange-800 dark:text-orange-200">{totalFuncionarios}</div>
+            <div className="text-3xl font-bold text-orange-800 dark:text-orange-200">{mentesData.kpi["Junho"]}</div>
             <p className="text-sm text-orange-600 dark:text-orange-400 mt-1">
-              Funcionários cadastrados
+              Ideias enviadas no mês
             </p>
             <Progress value={100} className="mt-3 h-2" />
           </CardContent>
