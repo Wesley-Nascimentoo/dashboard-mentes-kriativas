@@ -1,397 +1,396 @@
-
 {
-  "src":[
-    {
-      "Matricula": 500360,
-      "Nome": "LEANDRO OLIVEIRA DE SOUZA",
-      "total": 4,
-      "Descrição Seção": "1063203 - ENGENHARIA AM"
-    },
-    {
-      "Matricula": 501075,
-      "Nome": "ADELINO JOSE DOS SANTOS SILVA",
-      "total": 1,
-      "Descrição Seção": "1063203 - ENGENHARIA AM"
-    },
-    {
-      "Matricula": 501211,
-      "Nome": "NINA NOZAWA",
-      "total": 7,
-      "Descrição Seção": "1063203 - ENGENHARIA AM"
-    },
-    {
-      "Matricula": 501078,
-      "Nome": "VANESSA PANTOJA CORREA",
-      "total": 1,
-      "Descrição Seção": "1063203 - ENGENHARIA AM"
-    },
-    {
-      "Matricula": 501181,
-      "Nome": "BIANCA MARA MAIA DE SOUSA",
-      "total": 2,
-      "Descrição Seção": "1063203 - ENGENHARIA AM"
-    },
-    {
-      "Matricula": 501369,
-      "Nome": "RAIMUNDO MARTINS PAIVA NETO",
-      "total": 7,
-      "Descrição Seção": "1063203 - ENGENHARIA AM"
-    },
-    {
-      "Matricula": 502559,
-      "Nome": "WESLEY SILVA DO NASCIMENTO",
-      "total": 17,
-      "Descrição Seção": "1063203 - ENGENHARIA AM"
-    },
-    {
-      "Matricula": 502103,
-      "Nome": "CRISTIAN DAVID AZEVEDO DOMINGUEZ",
-      "total": 2,
-      "Descrição Seção": "1063203 - ENGENHARIA AM"
-    },
-    {
-      "Matricula": 502354,
-      "Nome": "IGOR GARCIA FREITAS",
-      "total": 2,
-      "Descrição Seção": "1063203 - ENGENHARIA AM"
-    },
-    {
-      "Matricula": 501071,
-      "Nome": "LUIZ FERNANDO RIBEIRO DE OLIVEIRA",
-      "total": 1,
-      "Descrição Seção": "1063203 - ENGENHARIA AM"
-    },
-    {
-      "Matricula": 501070,
-      "Nome": "RODRIGO JENNER DE OLIVEIRA PEREIRA",
-      "total": 2,
-      "Descrição Seção": "1063203 - ENGENHARIA AM"
-    },
-    {
-      "Matricula": 501072,
-      "Nome": "SERAFIM CONCEICAO ROQUE",
-      "total": 1,
-      "Descrição Seção": "1063203 - ENGENHARIA AM"
-    },
-    {
-      "Matricula": 502731,
-      "Nome": "ALCINEY NASCIMENTO DA FONSECA",
-      "total": 5,
-      "Descrição Seção": "1063203 - ENGENHARIA AM"
-    },
-    {
-      "Matricula": 501729,
-      "Nome": "GABRIEL SOUSA TAVARES",
-      "total": 1,
-      "Descrição Seção": "1063203 - ENGENHARIA AM"
-    },
-    {
-      "Matricula": 501074,
-      "Nome": "MARCIOCLEI FERREIRA DE SOUZA",
-      "total": 3,
-      "Descrição Seção": "1063204 - FERRAMENTARIA AM"
-    },
-    {
-      "Matricula": 501260,
-      "Nome": "ANTONIO CARLOS GONCALVES DE MELO",
-      "total": 1,
-      "Descrição Seção": "1063204 - FERRAMENTARIA AM"
-    },
-    {
-      "Matricula": 502299,
-      "Nome": "JHOUSE CRAVEIRO DE OLIVEIRA",
-      "total": 3,
-      "Descrição Seção": "1063204 - FERRAMENTARIA AM"
-    },
-    {
-      "Matricula": 501725,
-      "Nome": "JULIANO MELO DE MATOS",
-      "total": 5,
-      "Descrição Seção": "1063204 - FERRAMENTARIA AM"
-    },
-    {
-      "Matricula": 502563,
-      "Nome": "LOHAINA BRANDAO DE SOUSA",
-      "total": 4,
-      "Descrição Seção": "1063204 - FERRAMENTARIA AM"
-    },
-    {
-      "Matricula": 502598,
-      "Nome": "JOSE FERNANDO PEREIRA GARCIA",
-      "total": 1,
-      "Descrição Seção": "1063204 - FERRAMENTARIA AM"
-    },
-    {
-      "Matricula": 500425,
-      "Nome": "JAIME GONCALVES DA SILVA",
-      "total": 1,
-      "Descrição Seção": "1063204 - FERRAMENTARIA AM"
-    },
-    {
-      "Matricula": 501043,
-      "Nome": "MIZAEL DA SILVA CARDOSO",
-      "total": 2,
-      "Descrição Seção": "1063204 - FERRAMENTARIA AM"
-    },
-    {
-      "Matricula": 502739,
-      "Nome": "ANGELO RAFAEL DE SOUZA ROCHA",
-      "total": 1,
-      "Descrição Seção": "1063204 - FERRAMENTARIA AM"
-    },
-    {
-      "Matricula": 501125,
-      "Nome": "FRANCINEY GAMA DOS SANTOS",
-      "total": 109,
-      "Descrição Seção": "1063205 - MANUTENÇÃO AM"
-    },
-    {
-      "Matricula": 501124,
-      "Nome": "RAIMUNDO NONATO DE CASTRO",
-      "total": 1,
-      "Descrição Seção": "1063205 - MANUTENÇÃO AM"
-    },
-    {
-      "Matricula": 501126,
-      "Nome": "DAVIS SOARES PAIVA",
-      "total": 1,
-      "Descrição Seção": "1063205 - MANUTENÇÃO AM"
-    },
-    {
-      "Matricula": 501365,
-      "Nome": "ANDERSON PEREIRA DE CARVALHO",
-      "total": 2,
-      "Descrição Seção": "1063205 - MANUTENÇÃO AM"
-    },
-    {
-      "Matricula": 501089,
-      "Nome": "LEONARDO LUIZ MORAES CARNEIRO",
-      "total": 1,
-      "Descrição Seção": "1063205 - MANUTENÇÃO AM"
-    },
-    {
-      "Matricula": 500144,
-      "Nome": "KELVIN RODRIGO SIQUEIRA DA SILVA",
-      "total": 1,
-      "Descrição Seção": "1063205 - MANUTENÇÃO AM"
-    },
-    {
-      "Matricula": 500876,
-      "Nome": "CLODOVELTON RODRIGUES DE CASTRO",
-      "total": 1,
-      "Descrição Seção": "1063205 - MANUTENÇÃO AM"
-    },
-    {
-      "Matricula": 500348,
-      "Nome": "DIECRISON MARQUES DO NASCIMENTO",
-      "total": 1,
-      "Descrição Seção": "1063205 - MANUTENÇÃO AM"
-    },
-    {
-      "Matricula": 502340,
-      "Nome": "DONALD ROSSY FLEXA PANTOJA",
-      "total": 1,
-      "Descrição Seção": "1063205 - MANUTENÇÃO AM"
-    },
-    {
-      "Matricula": 502341,
-      "Nome": "ISAC RODRIGUES MELO",
-      "total": 1,
-      "Descrição Seção": "1063205 - MANUTENÇÃO AM"
-    },
-    {
-      "Matricula": 501254,
-      "Nome": "JORGE LEONARDO NIEVES VASQUEZ",
-      "total": 1,
-      "Descrição Seção": "1063205 - MANUTENÇÃO AM"
-    },
-    {
-      "Matricula": 502298,
-      "Nome": "KLEDSON ANGELO CASTRO DE SOUZA",
-      "total": 1,
-      "Descrição Seção": "1063205 - MANUTENÇÃO AM"
-    },
-    {
-      "Matricula": 502297,
-      "Nome": "NEWTON LELIS FERREIRA BARROS",
-      "total": 1,
-      "Descrição Seção": "1063205 - MANUTENÇÃO AM"
-    },
-    {
-      "Matricula": 500949,
-      "Nome": "RICHARD AZEVEDO DE SOUZA",
-      "total": 1,
-      "Descrição Seção": "1063205 - MANUTENÇÃO AM"
-    },
-    {
-      "Matricula": 501083,
-      "Nome": "JOSE GEORGE GONCALVES CALHEIROS",
-      "total": 107,
-      "Descrição Seção": "1063218 - ENG. PROCESSO AM"
-    },
-    {
-      "Matricula": 501073,
-      "Nome": "BRUNO DE OLIVEIRA BRITO",
-      "total": 21,
-      "Descrição Seção": "1063218 - ENG. PROCESSO AM"
-    },
-    {
-      "Matricula": 501082,
-      "Nome": "EDMUNDO MOTTA DE SOUZA",
-      "total": 16,
-      "Descrição Seção": "1063218 - ENG. PROCESSO AM"
-    },
-    {
-      "Matricula": 501764,
-      "Nome": "SORAIA CRISTINA COSTA CONCEICAO",
-      "total": 22,
-      "Descrição Seção": "1063218 - ENG. PROCESSO AM"
-    },
-    {
-      "Matricula": 501149,
-      "Nome": "ANDRE DA SILVA MONTEIRO",
-      "total": 4,
-      "Descrição Seção": "1063218 - ENG. PROCESSO AM"
-    },
-    {
-      "Matricula": 501213,
-      "Nome": "MARIA DAS DORES SOARES DA CRUZ",
-      "total": 3,
-      "Descrição Seção": "1063218 - ENG. PROCESSO AM"
-    },
-    {
-      "Matricula": 502024,
-      "Nome": "GILBER NORONHA GUIMARAES",
-      "total": 7,
-      "Descrição Seção": "1063218 - ENG. PROCESSO AM"
-    },
-    {
-      "Matricula": 501076,
-      "Nome": "DAYSE KELLY DA SILVA MARINHO",
-      "total": 1,
-      "Descrição Seção": "1063218 - ENG. PROCESSO AM"
-    },
-    {
-      "Matricula": 501095,
-      "Nome": "ANDERSON BRITO DE LIMA",
-      "total": 3,
-      "Descrição Seção": "1063218 - ENG. PROCESSO AM"
-    },
-    {
-      "Matricula": 500850,
-      "Nome": "BRUNO VIANA NEPOMUCENO",
-      "total": 6,
-      "Descrição Seção": "1063218 - ENG. PROCESSO AM"
-    },
-    {
-      "Matricula": 501080,
-      "Nome": "MARIA GERLANE PENA DE ABREU",
-      "total": 8,
-      "Descrição Seção": "1063218 - ENG. PROCESSO AM"
-    },
-    {
-      "Matricula": 502244,
-      "Nome": "NATALI QUEIROZ DE OLIVEIRA ROCHA",
-      "total": 2,
-      "Descrição Seção": "1063218 - ENG. PROCESSO AM"
-    },
-    {
-      "Matricula": 501997,
-      "Nome": "ROJER REMIZIO DA SILVA",
-      "total": 2,
-      "Descrição Seção": "1063218 - ENG. PROCESSO AM"
-    },
-    {
-      "Matricula": 501079,
-      "Nome": "SAMUEL LEITE MONTEIRO",
-      "total": 2,
-      "Descrição Seção": "1063218 - ENG. PROCESSO AM"
-    },
-    {
-      "Matricula": 501383,
-      "Nome": "LUIZ VINICIUS DA SILVA BRANDAO LOUREIRO",
-      "total": 1,
-      "Descrição Seção": "1063218 - ENG. PROCESSO AM"
-    },
-    {
-      "Matricula": 500746,
-      "Nome": "CHARLES DOS SANTOS FERNANDES JUNIOR",
-      "total": 2,
-      "Descrição Seção": "1063218 - ENG. PROCESSO AM"
-    }
-  ],
-  "atual":[
-    {
-      "Meta atual": 2,
-      "Data limite": "6/20/2025"
-    }
-  ],
-  "kpi":[
-    {
-      "Mês": "Janeiro",
-      "Meta": 67,
-      "Ideias enviadas": 87
-    },
-    {
-      "Mês": "Fevereiro",
-      "Meta": 67,
-      "Ideias enviadas": 149
-    },
-    {
-      "Mês": "Março",
-      "Meta": 67,
-      "Ideias enviadas": 70
-    },
-    {
-      "Mês": "Abril",
-      "Meta": 67,
-      "Ideias enviadas": 68
-    },
-    {
-      "Mês": "Maio",
-      "Meta": 67,
-      "Ideias enviadas": 26
-    },
-    {
-      "Mês": "Junho",
-      "Meta": 67,
-      "Ideias enviadas": 4
-    },
-    {
-      "Mês": "Julho",
-      "Meta": 67,
-      "Ideias enviadas": 0
-    },
-    {
-      "Mês": "Agosto",
-      "Meta": 67,
-      "Ideias enviadas": 0
-    },
-    {
-      "Mês": "Setembro",
-      "Meta": 67,
-      "Ideias enviadas": 0
-    },
-    {
-      "Mês": "Outubro",
-      "Meta": 67,
-      "Ideias enviadas": 0
-    },
-    {
-      "Mês": "Novembro",
-      "Meta": 67,
-      "Ideias enviadas": 0
-    },
-    {
-      "Mês": "Dezembro",
-      "Meta": 67,
-      "Ideias enviadas": 0
-    }
-  ],
-  "anual":[
-    {
-      "Meta": 810,
-      "Ideias enviadas": 404
-    }
-  ]
+"src":[
+ {
+  "Matricula": 500360,
+  "Nome": "LEANDRO OLIVEIRA DE SOUZA",
+  "total": 4,
+  "Descrição Seção": "1063203 - ENGENHARIA AM"
+ },
+ {
+  "Matricula": 501075,
+  "Nome": "ADELINO JOSE DOS SANTOS SILVA",
+  "total": 1,
+  "Descrição Seção": "1063203 - ENGENHARIA AM"
+ },
+ {
+  "Matricula": 501211,
+  "Nome": "NINA NOZAWA",
+  "total": 7,
+  "Descrição Seção": "1063203 - ENGENHARIA AM"
+ },
+ {
+  "Matricula": 501078,
+  "Nome": "VANESSA PANTOJA CORREA",
+  "total": 2,
+  "Descrição Seção": "1063203 - ENGENHARIA AM"
+ },
+ {
+  "Matricula": 501181,
+  "Nome": "BIANCA MARA MAIA DE SOUSA",
+  "total": 2,
+  "Descrição Seção": "1063203 - ENGENHARIA AM"
+ },
+ {
+  "Matricula": 501369,
+  "Nome": "RAIMUNDO MARTINS PAIVA NETO",
+  "total": 7,
+  "Descrição Seção": "1063203 - ENGENHARIA AM"
+ },
+ {
+  "Matricula": 502559,
+  "Nome": "WESLEY SILVA DO NASCIMENTO",
+  "total": 17,
+  "Descrição Seção": "1063203 - ENGENHARIA AM"
+ },
+ {
+  "Matricula": 502103,
+  "Nome": "CRISTIAN DAVID AZEVEDO DOMINGUEZ",
+  "total": 2,
+  "Descrição Seção": "1063203 - ENGENHARIA AM"
+ },
+ {
+  "Matricula": 502354,
+  "Nome": "IGOR GARCIA FREITAS",
+  "total": 2,
+  "Descrição Seção": "1063203 - ENGENHARIA AM"
+ },
+ {
+  "Matricula": 501071,
+  "Nome": "LUIZ FERNANDO RIBEIRO DE OLIVEIRA",
+  "total": 1,
+  "Descrição Seção": "1063203 - ENGENHARIA AM"
+ },
+ {
+  "Matricula": 501070,
+  "Nome": "RODRIGO JENNER DE OLIVEIRA PEREIRA",
+  "total": 2,
+  "Descrição Seção": "1063203 - ENGENHARIA AM"
+ },
+ {
+  "Matricula": 501072,
+  "Nome": "SERAFIM CONCEICAO ROQUE",
+  "total": 1,
+  "Descrição Seção": "1063203 - ENGENHARIA AM"
+ },
+ {
+  "Matricula": 502731,
+  "Nome": "ALCINEY NASCIMENTO DA FONSECA",
+  "total": 5,
+  "Descrição Seção": "1063203 - ENGENHARIA AM"
+ },
+ {
+  "Matricula": 501729,
+  "Nome": "GABRIEL SOUSA TAVARES",
+  "total": 1,
+  "Descrição Seção": "1063203 - ENGENHARIA AM"
+ },
+ {
+  "Matricula": 501074,
+  "Nome": "MARCIOCLEI FERREIRA DE SOUZA",
+  "total": 3,
+  "Descrição Seção": "1063204 - FERRAMENTARIA AM"
+ },
+ {
+  "Matricula": 501260,
+  "Nome": "ANTONIO CARLOS GONCALVES DE MELO",
+  "total": 1,
+  "Descrição Seção": "1063204 - FERRAMENTARIA AM"
+ },
+ {
+  "Matricula": 502299,
+  "Nome": "JHOUSE CRAVEIRO DE OLIVEIRA",
+  "total": 3,
+  "Descrição Seção": "1063204 - FERRAMENTARIA AM"
+ },
+ {
+  "Matricula": 501725,
+  "Nome": "JULIANO MELO DE MATOS",
+  "total": 5,
+  "Descrição Seção": "1063204 - FERRAMENTARIA AM"
+ },
+ {
+  "Matricula": 502563,
+  "Nome": "LOHAINA BRANDAO DE SOUSA",
+  "total": 4,
+  "Descrição Seção": "1063204 - FERRAMENTARIA AM"
+ },
+ {
+  "Matricula": 502598,
+  "Nome": "JOSE FERNANDO PEREIRA GARCIA",
+  "total": 1,
+  "Descrição Seção": "1063204 - FERRAMENTARIA AM"
+ },
+ {
+  "Matricula": 500425,
+  "Nome": "JAIME GONCALVES DA SILVA",
+  "total": 1,
+  "Descrição Seção": "1063204 - FERRAMENTARIA AM"
+ },
+ {
+  "Matricula": 501043,
+  "Nome": "MIZAEL DA SILVA CARDOSO",
+  "total": 2,
+  "Descrição Seção": "1063204 - FERRAMENTARIA AM"
+ },
+ {
+  "Matricula": 502739,
+  "Nome": "ANGELO RAFAEL DE SOUZA ROCHA",
+  "total": 1,
+  "Descrição Seção": "1063204 - FERRAMENTARIA AM"
+ },
+ {
+  "Matricula": 501125,
+  "Nome": "FRANCINEY GAMA DOS SANTOS",
+  "total": 117,
+  "Descrição Seção": "1063205 - MANUTENÇÃO AM"
+ },
+ {
+  "Matricula": 501124,
+  "Nome": "RAIMUNDO NONATO DE CASTRO",
+  "total": 1,
+  "Descrição Seção": "1063205 - MANUTENÇÃO AM"
+ },
+ {
+  "Matricula": 501126,
+  "Nome": "DAVIS SOARES PAIVA",
+  "total": 1,
+  "Descrição Seção": "1063205 - MANUTENÇÃO AM"
+ },
+ {
+  "Matricula": 501365,
+  "Nome": "ANDERSON PEREIRA DE CARVALHO",
+  "total": 2,
+  "Descrição Seção": "1063205 - MANUTENÇÃO AM"
+ },
+ {
+  "Matricula": 501089,
+  "Nome": "LEONARDO LUIZ MORAES CARNEIRO",
+  "total": 1,
+  "Descrição Seção": "1063205 - MANUTENÇÃO AM"
+ },
+ {
+  "Matricula": 500144,
+  "Nome": "KELVIN RODRIGO SIQUEIRA DA SILVA",
+  "total": 1,
+  "Descrição Seção": "1063205 - MANUTENÇÃO AM"
+ },
+ {
+  "Matricula": 500876,
+  "Nome": "CLODOVELTON RODRIGUES DE CASTRO",
+  "total": 1,
+  "Descrição Seção": "1063205 - MANUTENÇÃO AM"
+ },
+ {
+  "Matricula": 500348,
+  "Nome": "DIECRISON MARQUES DO NASCIMENTO",
+  "total": 1,
+  "Descrição Seção": "1063205 - MANUTENÇÃO AM"
+ },
+ {
+  "Matricula": 502340,
+  "Nome": "DONALD ROSSY FLEXA PANTOJA",
+  "total": 1,
+  "Descrição Seção": "1063205 - MANUTENÇÃO AM"
+ },
+ {
+  "Matricula": 502341,
+  "Nome": "ISAC RODRIGUES MELO",
+  "total": 1,
+  "Descrição Seção": "1063205 - MANUTENÇÃO AM"
+ },
+ {
+  "Matricula": 501254,
+  "Nome": "JORGE LEONARDO NIEVES VASQUEZ",
+  "total": 1,
+  "Descrição Seção": "1063205 - MANUTENÇÃO AM"
+ },
+ {
+  "Matricula": 502298,
+  "Nome": "KLEDSON ANGELO CASTRO DE SOUZA",
+  "total": 1,
+  "Descrição Seção": "1063205 - MANUTENÇÃO AM"
+ },
+ {
+  "Matricula": 502297,
+  "Nome": "NEWTON LELIS FERREIRA BARROS",
+  "total": 1,
+  "Descrição Seção": "1063205 - MANUTENÇÃO AM"
+ },
+ {
+  "Matricula": 500949,
+  "Nome": "RICHARD AZEVEDO DE SOUZA",
+  "total": 1,
+  "Descrição Seção": "1063205 - MANUTENÇÃO AM"
+ },
+ {
+  "Matricula": 501083,
+  "Nome": "JOSE GEORGE GONCALVES CALHEIROS",
+  "total": 110,
+  "Descrição Seção": "1063218 - ENG. PROCESSO AM"
+ },
+ {
+  "Matricula": 501073,
+  "Nome": "BRUNO DE OLIVEIRA BRITO",
+  "total": 21,
+  "Descrição Seção": "1063218 - ENG. PROCESSO AM"
+ },
+ {
+  "Matricula": 501082,
+  "Nome": "EDMUNDO MOTTA DE SOUZA",
+  "total": 16,
+  "Descrição Seção": "1063218 - ENG. PROCESSO AM"
+ },
+ {
+  "Matricula": 501764,
+  "Nome": "SORAIA CRISTINA COSTA CONCEICAO",
+  "total": 22,
+  "Descrição Seção": "1063218 - ENG. PROCESSO AM"
+ },
+ {
+  "Matricula": 501149,
+  "Nome": "ANDRE DA SILVA MONTEIRO",
+  "total": 4,
+  "Descrição Seção": "1063218 - ENG. PROCESSO AM"
+ },
+ {
+  "Matricula": 501213,
+  "Nome": "MARIA DAS DORES SOARES DA CRUZ",
+  "total": 3,
+  "Descrição Seção": "1063218 - ENG. PROCESSO AM"
+ },
+ {
+  "Matricula": 502024,
+  "Nome": "GILBER NORONHA GUIMARAES",
+  "total": 7,
+  "Descrição Seção": "1063218 - ENG. PROCESSO AM"
+ },
+ {
+  "Matricula": 501076,
+  "Nome": "DAYSE KELLY DA SILVA MARINHO",
+  "total": 1,
+  "Descrição Seção": "1063218 - ENG. PROCESSO AM"
+ },
+ {
+  "Matricula": 501095,
+  "Nome": "ANDERSON BRITO DE LIMA",
+  "total": 3,
+  "Descrição Seção": "1063218 - ENG. PROCESSO AM"
+ },
+ {
+  "Matricula": 500850,
+  "Nome": "BRUNO VIANA NEPOMUCENO",
+  "total": 6,
+  "Descrição Seção": "1063218 - ENG. PROCESSO AM"
+ },
+ {
+  "Matricula": 501080,
+  "Nome": "MARIA GERLANE PENA DE ABREU",
+  "total": 8,
+  "Descrição Seção": "1063218 - ENG. PROCESSO AM"
+ },
+ {
+  "Matricula": 502244,
+  "Nome": "NATALI QUEIROZ DE OLIVEIRA ROCHA",
+  "total": 2,
+  "Descrição Seção": "1063218 - ENG. PROCESSO AM"
+ },
+ {
+  "Matricula": 501997,
+  "Nome": "ROJER REMIZIO DA SILVA",
+  "total": 2,
+  "Descrição Seção": "1063218 - ENG. PROCESSO AM"
+ },
+ {
+  "Matricula": 501079,
+  "Nome": "SAMUEL LEITE MONTEIRO",
+  "total": 2,
+  "Descrição Seção": "1063218 - ENG. PROCESSO AM"
+ },
+ {
+  "Matricula": 501383,
+  "Nome": "LUIZ VINICIUS DA SILVA BRANDAO LOUREIRO",
+  "total": 1,
+  "Descrição Seção": "1063218 - ENG. PROCESSO AM"
+ },
+ {
+  "Matricula": 500746,
+  "Nome": "CHARLES DOS SANTOS FERNANDES JUNIOR",
+  "total": 2,
+  "Descrição Seção": "1063218 - ENG. PROCESSO AM"
+ }
+],
+"atual":[
+ {
+  "Meta atual": 2,
+  "Data limite": "6\/20\/2025"
+ }
+],
+"kpi":[
+ {
+  "Mês": "Janeiro",
+  "Meta": 67,
+  "Ideias enviadas": 87
+ },
+ {
+  "Mês": "Fevereiro",
+  "Meta": 67,
+  "Ideias enviadas": 149
+ },
+ {
+  "Mês": "Março",
+  "Meta": 67,
+  "Ideias enviadas": 70
+ },
+ {
+  "Mês": "Abril",
+  "Meta": 67,
+  "Ideias enviadas": 68
+ },
+ {
+  "Mês": "Maio",
+  "Meta": 67,
+  "Ideias enviadas": 26
+ },
+ {
+  "Mês": "Junho",
+  "Meta": 67,
+  "Ideias enviadas": 16
+ },
+ {
+  "Mês": "Julho",
+  "Meta": 67,
+  "Ideias enviadas": 0
+ },
+ {
+  "Mês": "Agosto",
+  "Meta": 67,
+  "Ideias enviadas": 0
+ },
+ {
+  "Mês": "Setembro",
+  "Meta": 67,
+  "Ideias enviadas": 0
+ },
+ {
+  "Mês": "Outubro",
+  "Meta": 67,
+  "Ideias enviadas": 0
+ },
+ {
+  "Mês": "Novembro",
+  "Meta": 67,
+  "Ideias enviadas": 0
+ },
+ {
+  "Mês": "Dezembro",
+  "Meta": 67,
+  "Ideias enviadas": 0
+ }
+],
+"anual":[
+ {
+  "Meta": 810,
+  "Ideias enviadas": 416
+ }
+]
 }
