@@ -88,13 +88,13 @@ const Dashboard = () => {
 
         <Card className="group hover:shadow-lg transition-all duration-300 border-l-4 border-l-orange-500 bg-gradient-to-br from-orange-50 to-orange-100 dark:from-orange-950 dark:to-orange-900">
           <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-3">
-            <CardTitle className="text-sm font-medium text-orange-700 dark:text-orange-300">Total de ideias enviadas no mês de Junho</CardTitle>
+            <CardTitle className="text-sm font-medium text-orange-700 dark:text-orange-300">Ideias enviadas no mês de Junho</CardTitle>
             <div className="w-10 h-10 bg-orange-500 rounded-full flex items-center justify-center">
               <CheckCircle className="h-5 w-5 text-white" />
             </div>
           </CardHeader>
           <CardContent>
-            <div className="text-3xl font-bold text-orange-800 dark:text-orange-200">{totalDeIdeiasNoMesAtual}</div>
+            <div className="text-3xl font-bold text-orange-800 dark:text-orange-200">{totalDeIdeiasNoMesAtual}/67</div>
             <p className="text-sm text-orange-600 dark:text-orange-400 mt-1">
               {porcentagemMesAtual} % da meta mensal
             </p>
