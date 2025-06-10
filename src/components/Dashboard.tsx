@@ -23,7 +23,8 @@ const Dashboard = () => {
   const percentualMetaAtual = Math.round((funcionariosMetaAtual / totalFuncionarios) * 100);
   const percentualMetaAnualFunc = Math.round((funcionariosMetaAnual / totalFuncionarios) * 100);
 
-  const totalDeIdeiasNoMesAtual = mentesData.kpi[5]
+  const totalDeIdeiasNoMesAtual = mentesData.kpi[5]["Ideias enviadas"]
+  const porcentagemMesAtual = Math.round(totalDeIdeiasNoMesAtual / 67) * 100
   
   // Dados para o gráfico mensal
   const dadosGraficoMensal = mentesData.kpi.map(item => ({
@@ -93,9 +94,9 @@ const Dashboard = () => {
             </div>
           </CardHeader>
           <CardContent>
-            <div className="text-3xl font-bold text-orange-800 dark:text-orange-200">{totalDeIdeiasNoMesAtual["Ideias enviadas"]}</div>
+            <div className="text-3xl font-bold text-orange-800 dark:text-orange-200">{totalDeIdeiasNoMesAtual}</div>
             <p className="text-sm text-orange-600 dark:text-orange-400 mt-1">
-              Funcionários cadastrados
+              {porcentagemMesAtual} % da meta mensal
             </p>
             <Progress value={100} className="mt-3 h-2" />
           </CardContent>
