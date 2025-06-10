@@ -211,7 +211,7 @@ const Dashboard = () => {
               <div className="w-12 h-12 bg-green-500 rounded-full flex items-center justify-center mx-auto mb-3">
                 <Users className="h-6 w-6 text-white" />
               </div>
-              <div className="text-3xl font-bold text-green-600 mb-1">{totalFuncionarios}</div>
+              <div className="text-3xl font-bold text-green-600 mb-1">{mentesData.kip[0]}</div>
               <p className="text-sm text-muted-foreground">Funcionários Participantes</p>
             </div>
             <div className="text-center p-6 bg-white dark:bg-gray-800 rounded-xl shadow-md hover:shadow-lg transition-shadow">
