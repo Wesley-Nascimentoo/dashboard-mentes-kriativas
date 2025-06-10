@@ -28,12 +28,30 @@ const ConsultaFuncionario = () => {
     
     // Simular consulta à API
     setTimeout(() => {
-      const funcionario = mentesData.consultaFuncionario.find(
-        f => f.id === matriculaFuncionario
+      const funcionario = mentesData.src.find(
+        f => f.Matricula.toString() === matriculaFuncionario
       );
 
       if (funcionario) {
-        setFuncionarioEncontrado(funcionario);
+        // Calcular dados baseados na nova estrutura
+        const metaAtual = 6;
+        const metaAnual = 12;
+        const ideiasSubmitidas = funcionario.total;
+        
+        const funcionarioCompleto = {
+          id: funcionario.Matricula.toString(),
+          nome: funcionario.Nome,
+          departamento: funcionario["Descrição Seção"],
+          ideiasSubmitidas: ideiasSubmitidas,
+          metaAtual: metaAtual,
+          metaAnual: metaAnual,
+          atingiuMetaAtual: ideiasSubmitidas >= metaAtual,
+          atingiuMetaAnual: ideiasSubmitidas >= metaAnual,
+          percentualAnual: Math.round((ideiasSubmitidas / metaAnual) * 100),
+          ultimaSubmissao: "2024-03-15" // Data fictícia para exemplo
+        };
+        
+        setFuncionarioEncontrado(funcionarioCompleto);
         toast({
           title: "Sucesso",
           description: "Funcionário encontrado!",

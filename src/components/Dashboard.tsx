@@ -7,16 +7,28 @@ import { Calendar, CheckCircle, Circle, Info, Target, TrendingUp, Users, Lightbu
 import mentesData from '@/data/mentesKriativasData.json';
 
 const Dashboard = () => {
-  const { metasAno, metasMensais, funcionarios } = mentesData;
-  const anoAtual = 2024;
-  const dadosAno = metasAno[anoAtual.toString() as keyof typeof metasAno];
+  // Calcular dados baseados na nova estrutura
+  const totalIdeiasAnual = mentesData.anual[0]["Ideias enviadas"];
+  const metaAnual = mentesData.anual[0]["Meta"];
+  const percentualAnual = Math.round((totalIdeiasAnual / metaAnual) * 100);
+
+  // Total de funcionários e funcionários com metas
+  const totalFuncionarios = mentesData.src.length;
+  const metaAtual = 6; // Meta atual padrão
+  const metaAnualFuncionario = 12; // Meta anual padrão
+  
+  const funcionariosMetaAtual = mentesData.src.filter(f => f.total >= metaAtual).length;
+  const funcionariosMetaAnual = mentesData.src.filter(f => f.total >= metaAnualFuncionario).length;
+  
+  const percentualMetaAtual = Math.round((funcionariosMetaAtual / totalFuncionarios) * 100);
+  const percentualMetaAnualFunc = Math.round((funcionariosMetaAnual / totalFuncionarios) * 100);
 
   // Dados para o gráfico mensal
-  const dadosGraficoMensal = metasMensais.map(item => ({
-    mes: item.mes.substring(0, 3),
-    Meta: item.meta,
-    Submissões: item.submissoes,
-    Percentual: item.percentual
+  const dadosGraficoMensal = mentesData.kpi.map(item => ({
+    mes: item.Mês.substring(0, 3),
+    Meta: item.Meta,
+    Submissões: item["Ideias enviadas"],
+    Percentual: Math.round((item["Ideias enviadas"] / item.Meta) * 100)
   }));
 
   return (
@@ -25,17 +37,17 @@ const Dashboard = () => {
       <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-4">
         <Card className="group hover:shadow-lg transition-all duration-300 border-l-4 border-l-blue-500 bg-gradient-to-br from-blue-50 to-blue-100 dark:from-blue-950 dark:to-blue-900">
           <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-3">
-            <CardTitle className="text-sm font-medium text-blue-700 dark:text-blue-300">Meta Anual {anoAtual}</CardTitle>
+            <CardTitle className="text-sm font-medium text-blue-700 dark:text-blue-300">Meta Anual 2024</CardTitle>
             <div className="w-10 h-10 bg-blue-500 rounded-full flex items-center justify-center">
               <Target className="h-5 w-5 text-white" />
             </div>
           </CardHeader>
           <CardContent>
-            <div className="text-3xl font-bold text-blue-800 dark:text-blue-200">{dadosAno.submissoes}/{dadosAno.metaTotal}</div>
+            <div className="text-3xl font-bold text-blue-800 dark:text-blue-200">{totalIdeiasAnual}/{metaAnual}</div>
             <p className="text-sm text-blue-600 dark:text-blue-400 mt-1">
-              {dadosAno.percentualAtingido}% da meta atingida
+              {percentualAnual}% da meta atingida
             </p>
-            <Progress value={dadosAno.percentualAtingido} className="mt-3 h-2" />
+            <Progress value={percentualAnual} className="mt-3 h-2" />
           </CardContent>
         </Card>
 
@@ -47,11 +59,11 @@ const Dashboard = () => {
             </div>
           </CardHeader>
           <CardContent>
-            <div className="text-3xl font-bold text-green-800 dark:text-green-200">{funcionarios.funcionariosMetaAtual}/{funcionarios.totalFuncionarios}</div>
+            <div className="text-3xl font-bold text-green-800 dark:text-green-200">{funcionariosMetaAtual}/{totalFuncionarios}</div>
             <p className="text-sm text-green-600 dark:text-green-400 mt-1">
-              {funcionarios.percentualMetaAtual}% atingiram a meta atual
+              {percentualMetaAtual}% atingiram a meta atual
             </p>
-            <Progress value={funcionarios.percentualMetaAtual} className="mt-3 h-2" />
+            <Progress value={percentualMetaAtual} className="mt-3 h-2" />
           </CardContent>
         </Card>
 
@@ -63,11 +75,11 @@ const Dashboard = () => {
             </div>
           </CardHeader>
           <CardContent>
-            <div className="text-3xl font-bold text-purple-800 dark:text-purple-200">{funcionarios.funcionariosMetaAnual}/{funcionarios.totalFuncionarios}</div>
+            <div className="text-3xl font-bold text-purple-800 dark:text-purple-200">{funcionariosMetaAnual}/{totalFuncionarios}</div>
             <p className="text-sm text-purple-600 dark:text-purple-400 mt-1">
-              {funcionarios.percentualMetaAnual}% atingiram a meta anual
+              {percentualMetaAnualFunc}% atingiram a meta anual
             </p>
-            <Progress value={funcionarios.percentualMetaAnual} className="mt-3 h-2" />
+            <Progress value={percentualMetaAnualFunc} className="mt-3 h-2" />
           </CardContent>
         </Card>
 
@@ -79,11 +91,11 @@ const Dashboard = () => {
             </div>
           </CardHeader>
           <CardContent>
-            <div className="text-3xl font-bold text-orange-800 dark:text-orange-200">{funcionarios.funcionariosComMeta}</div>
+            <div className="text-3xl font-bold text-orange-800 dark:text-orange-200">{totalFuncionarios}</div>
             <p className="text-sm text-orange-600 dark:text-orange-400 mt-1">
-              De {funcionarios.totalFuncionarios} funcionários totais
+              Funcionários cadastrados
             </p>
-            <Progress value={(funcionarios.funcionariosComMeta / funcionarios.totalFuncionarios) * 100} className="mt-3 h-2" />
+            <Progress value={100} className="mt-3 h-2" />
           </CardContent>
         </Card>
       </div>
@@ -192,21 +204,21 @@ const Dashboard = () => {
               <div className="w-12 h-12 bg-blue-500 rounded-full flex items-center justify-center mx-auto mb-3">
                 <Lightbulb className="h-6 w-6 text-white" />
               </div>
-              <div className="text-3xl font-bold text-blue-600 mb-1">{dadosAno.submissoes}</div>
-              <p className="text-sm text-muted-foreground">Ideias Submetidas em {anoAtual}</p>
+              <div className="text-3xl font-bold text-blue-600 mb-1">{totalIdeiasAnual}</div>
+              <p className="text-sm text-muted-foreground">Ideias Submetidas em 2024</p>
             </div>
             <div className="text-center p-6 bg-white dark:bg-gray-800 rounded-xl shadow-md hover:shadow-lg transition-shadow">
               <div className="w-12 h-12 bg-green-500 rounded-full flex items-center justify-center mx-auto mb-3">
                 <Users className="h-6 w-6 text-white" />
               </div>
-              <div className="text-3xl font-bold text-green-600 mb-1">{funcionarios.funcionariosComMeta}</div>
+              <div className="text-3xl font-bold text-green-600 mb-1">{totalFuncionarios}</div>
               <p className="text-sm text-muted-foreground">Funcionários Participantes</p>
             </div>
             <div className="text-center p-6 bg-white dark:bg-gray-800 rounded-xl shadow-md hover:shadow-lg transition-shadow">
               <div className="w-12 h-12 bg-purple-500 rounded-full flex items-center justify-center mx-auto mb-3">
                 <Target className="h-6 w-6 text-white" />
               </div>
-              <div className="text-3xl font-bold text-purple-600 mb-1">{dadosAno.percentualAtingido}%</div>
+              <div className="text-3xl font-bold text-purple-600 mb-1">{percentualAnual}%</div>
               <p className="text-sm text-muted-foreground">Meta Anual Atingida</p>
             </div>
           </div>
