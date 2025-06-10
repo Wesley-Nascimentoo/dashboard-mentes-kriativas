@@ -5,20 +5,20 @@ import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Badge } from '@/components/ui/badge';
 import { Progress } from '@/components/ui/progress';
-import { CheckCircle, Circle, Calendar, Info } from 'lucide-react';
+import { CheckCircle, Circle, Calendar, Info, User, Building2 } from 'lucide-react';
 import { toast } from '@/hooks/use-toast';
 import mentesData from '@/data/mentesKriativasData.json';
 
 const ConsultaFuncionario = () => {
-  const [codigoFuncionario, setCodigoFuncionario] = useState('');
+  const [matriculaFuncionario, setMatriculaFuncionario] = useState('');
   const [funcionarioEncontrado, setFuncionarioEncontrado] = useState<any>(null);
   const [carregando, setCarregando] = useState(false);
 
   const buscarFuncionario = async () => {
-    if (!codigoFuncionario.trim()) {
+    if (!matriculaFuncionario.trim()) {
       toast({
         title: "Erro",
-        description: "Por favor, digite o código do funcionário.",
+        description: "Por favor, digite a matrícula do funcionário.",
         variant: "destructive"
       });
       return;
@@ -29,7 +29,7 @@ const ConsultaFuncionario = () => {
     // Simular consulta à API
     setTimeout(() => {
       const funcionario = mentesData.consultaFuncionario.find(
-        f => f.id === codigoFuncionario.padStart(3, '0')
+        f => f.id === matriculaFuncionario
       );
 
       if (funcionario) {
@@ -51,7 +51,7 @@ const ConsultaFuncionario = () => {
   };
 
   const limparConsulta = () => {
-    setCodigoFuncionario('');
+    setMatriculaFuncionario('');
     setFuncionarioEncontrado(null);
   };
 
@@ -64,20 +64,20 @@ const ConsultaFuncionario = () => {
             Consulta Serasa - Mentes Kriativas
           </CardTitle>
           <CardDescription>
-            Digite seu código de funcionário para consultar o status das suas metas
+            Digite sua matrícula para consultar o status das suas metas
           </CardDescription>
         </CardHeader>
         <CardContent>
           <div className="flex gap-4 items-end">
             <div className="flex-1">
-              <label htmlFor="codigo" className="text-sm font-medium mb-2 block">
-                Código do Funcionário
+              <label htmlFor="matricula" className="text-sm font-medium mb-2 block">
+                Matrícula do Funcionário
               </label>
               <Input
-                id="codigo"
-                placeholder="Digite seu código (ex: 001, 002, 003...)"
-                value={codigoFuncionario}
-                onChange={(e) => setCodigoFuncionario(e.target.value)}
+                id="matricula"
+                placeholder="Digite sua matrícula (ex: 500360, 501075...)"
+                value={matriculaFuncionario}
+                onChange={(e) => setMatriculaFuncionario(e.target.value)}
                 onKeyPress={(e) => e.key === 'Enter' && buscarFuncionario()}
               />
             </div>
@@ -102,11 +102,23 @@ const ConsultaFuncionario = () => {
           {/* Informações do funcionário */}
           <Card>
             <CardHeader>
-              <CardTitle className="text-blue-600">{funcionarioEncontrado.nome}</CardTitle>
-              <CardDescription>{funcionarioEncontrado.departamento}</CardDescription>
+              <CardTitle className="flex items-center gap-2 text-blue-600">
+                <User className="h-5 w-5" />
+                {funcionarioEncontrado.nome}
+              </CardTitle>
+              <CardDescription className="flex items-center gap-2">
+                <Building2 className="h-4 w-4" />
+                {funcionarioEncontrado.departamento}
+              </CardDescription>
             </CardHeader>
             <CardContent>
-              <div className="grid gap-4 md:grid-cols-2">
+              <div className="grid gap-4 md:grid-cols-3">
+                <div>
+                  <p className="text-sm text-muted-foreground">Matrícula</p>
+                  <div className="text-lg font-bold text-blue-600 mt-1">
+                    {funcionarioEncontrado.id}
+                  </div>
+                </div>
                 <div>
                   <p className="text-sm text-muted-foreground">Última submissão</p>
                   <div className="flex items-center gap-2 mt-1">
@@ -217,9 +229,9 @@ const ConsultaFuncionario = () => {
           </CardHeader>
           <CardContent>
             <div className="space-y-2 text-sm text-muted-foreground">
-              <p>• Digite seu código de funcionário no campo acima</p>
+              <p>• Digite sua matrícula no campo acima</p>
               <p>• Clique em "Consultar" para ver o status das suas metas</p>
-              <p>• Códigos de exemplo para teste: 001, 002, 003, 004, 005</p>
+              <p>• Matrículas de exemplo para teste: 500360, 501075, 501211, 502559</p>
               <p>• Em caso de dúvidas, entre em contato com o RH</p>
             </div>
           </CardContent>

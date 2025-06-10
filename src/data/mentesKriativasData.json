@@ -2,153 +2,237 @@
 {
   "metasAno": {
     "2024": {
-      "metaTotal": 200,
-      "submissoes": 156,
-      "percentualAtingido": 78
+      "metaTotal": 804,
+      "submissoes": 404,
+      "percentualAtingido": 50
     }
   },
   "metasMensais": [
     {
       "mes": "Janeiro",
-      "meta": 15,
-      "submissoes": 12,
-      "percentual": 80
+      "meta": 67,
+      "submissoes": 87,
+      "percentual": 130
     },
     {
       "mes": "Fevereiro",
-      "meta": 15,
-      "submissoes": 14,
-      "percentual": 93
+      "meta": 67,
+      "submissoes": 149,
+      "percentual": 222
     },
     {
       "mes": "Março",
-      "meta": 18,
-      "submissoes": 16,
-      "percentual": 89
+      "meta": 67,
+      "submissoes": 70,
+      "percentual": 104
     },
     {
       "mes": "Abril",
-      "meta": 18,
-      "submissoes": 15,
-      "percentual": 83
+      "meta": 67,
+      "submissoes": 68,
+      "percentual": 101
     },
     {
       "mes": "Maio",
-      "meta": 20,
-      "submissoes": 18,
-      "percentual": 90
+      "meta": 67,
+      "submissoes": 26,
+      "percentual": 39
     },
     {
       "mes": "Junho",
-      "meta": 20,
-      "submissoes": 22,
-      "percentual": 110
+      "meta": 67,
+      "submissoes": 4,
+      "percentual": 6
     },
     {
       "mes": "Julho",
-      "meta": 18,
-      "submissoes": 14,
-      "percentual": 78
+      "meta": 67,
+      "submissoes": 0,
+      "percentual": 0
     },
     {
       "mes": "Agosto",
-      "meta": 18,
-      "submissoes": 16,
-      "percentual": 89
+      "meta": 67,
+      "submissoes": 0,
+      "percentual": 0
     },
     {
       "mes": "Setembro",
-      "meta": 16,
-      "submissoes": 13,
-      "percentual": 81
+      "meta": 67,
+      "submissoes": 0,
+      "percentual": 0
     },
     {
       "mes": "Outubro",
-      "meta": 16,
-      "submissoes": 8,
-      "percentual": 50
+      "meta": 67,
+      "submissoes": 0,
+      "percentual": 0
     },
     {
       "mes": "Novembro",
-      "meta": 16,
-      "submissoes": 5,
-      "percentual": 31
+      "meta": 67,
+      "submissoes": 0,
+      "percentual": 0
     },
     {
       "mes": "Dezembro",
-      "meta": 16,
-      "submissoes": 3,
-      "percentual": 19
+      "meta": 67,
+      "submissoes": 0,
+      "percentual": 0
     }
   ],
   "funcionarios": {
-    "totalFuncionarios": 85,
-    "funcionariosComMeta": 72,
-    "funcionariosMetaAtual": 48,
-    "funcionariosMetaAnual": 34,
-    "percentualMetaAtual": 67,
-    "percentualMetaAnual": 47
+    "totalFuncionarios": 150,
+    "funcionariosComMeta": 120,
+    "funcionariosMetaAtual": 45,
+    "funcionariosMetaAnual": 25,
+    "percentualMetaAtual": 38,
+    "percentualMetaAnual": 21
   },
   "consultaFuncionario": [
     {
-      "id": "001",
-      "nome": "Maria Silva Santos",
-      "departamento": "Engenharia de Processos",
-      "ideiasSubmitidas": 8,
-      "metaAtual": 4,
+      "id": "500360",
+      "nome": "LEANDRO OLIVEIRA DE SOUZA",
+      "departamento": "1063203 - ENGENHARIA AM",
+      "ideiasSubmitidas": 4,
+      "metaAtual": 6,
+      "metaAnual": 12,
+      "atingiuMetaAtual": false,
+      "atingiuMetaAnual": false,
+      "percentualAnual": 33,
+      "ultimaSubmissao": "2024-03-15"
+    },
+    {
+      "id": "501075",
+      "nome": "ADELINO JOSE DOS SANTOS SILVA",
+      "departamento": "1063203 - ENGENHARIA AM",
+      "ideiasSubmitidas": 1,
+      "metaAtual": 6,
+      "metaAnual": 12,
+      "atingiuMetaAtual": false,
+      "atingiuMetaAnual": false,
+      "percentualAnual": 8,
+      "ultimaSubmissao": "2024-01-20"
+    },
+    {
+      "id": "501211",
+      "nome": "NINA NOZAWA",
+      "departamento": "1063203 - ENGENHARIA AM",
+      "ideiasSubmitidas": 7,
+      "metaAtual": 6,
       "metaAnual": 12,
       "atingiuMetaAtual": true,
       "atingiuMetaAnual": false,
-      "percentualAnual": 67,
-      "ultimaSubmissao": "2024-10-15"
+      "percentualAnual": 58,
+      "ultimaSubmissao": "2024-04-10"
     },
     {
-      "id": "002",
-      "nome": "João Carlos Oliveira",
-      "departamento": "Engenharia de Produto",
-      "ideiasSubmitidas": 15,
-      "metaAtual": 4,
+      "id": "501078",
+      "nome": "VANESSA PANTOJA CORREA",
+      "departamento": "1063203 - ENGENHARIA AM",
+      "ideiasSubmitidas": 1,
+      "metaAtual": 6,
+      "metaAnual": 12,
+      "atingiuMetaAtual": false,
+      "atingiuMetaAnual": false,
+      "percentualAnual": 8,
+      "ultimaSubmissao": "2024-02-05"
+    },
+    {
+      "id": "501181",
+      "nome": "BIANCA MARA MAIA DE SOUSA",
+      "departamento": "1063203 - ENGENHARIA AM",
+      "ideiasSubmitidas": 2,
+      "metaAtual": 6,
+      "metaAnual": 12,
+      "atingiuMetaAtual": false,
+      "atingiuMetaAnual": false,
+      "percentualAnual": 17,
+      "ultimaSubmissao": "2024-01-30"
+    },
+    {
+      "id": "501369",
+      "nome": "RAIMUNDO MARTINS PAIVA NETO",
+      "departamento": "1063203 - ENGENHARIA AM",
+      "ideiasSubmitidas": 7,
+      "metaAtual": 6,
+      "metaAnual": 12,
+      "atingiuMetaAtual": true,
+      "atingiuMetaAnual": false,
+      "percentualAnual": 58,
+      "ultimaSubmissao": "2024-04-25"
+    },
+    {
+      "id": "502559",
+      "nome": "WESLEY SILVA DO NASCIMENTO",
+      "departamento": "1063203 - ENGENHARIA AM",
+      "ideiasSubmitidas": 17,
+      "metaAtual": 6,
       "metaAnual": 12,
       "atingiuMetaAtual": true,
       "atingiuMetaAnual": true,
-      "percentualAnual": 125,
-      "ultimaSubmissao": "2024-11-20"
+      "percentualAnual": 142,
+      "ultimaSubmissao": "2024-05-15"
     },
     {
-      "id": "003",
-      "nome": "Ana Paula Costa",
-      "departamento": "Engenharia de Qualidade",
+      "id": "502103",
+      "nome": "CRISTIAN DAVID AZEVEDO DOMINGUEZ",
+      "departamento": "1063203 - ENGENHARIA AM",
+      "ideiasSubmitidas": 2,
+      "metaAtual": 6,
+      "metaAnual": 12,
+      "atingiuMetaAtual": false,
+      "atingiuMetaAnual": false,
+      "percentualAnual": 17,
+      "ultimaSubmissao": "2024-03-08"
+    },
+    {
+      "id": "502354",
+      "nome": "IGOR GARCIA FREITAS",
+      "departamento": "1063203 - ENGENHARIA AM",
+      "ideiasSubmitidas": 2,
+      "metaAtual": 6,
+      "metaAnual": 12,
+      "atingiuMetaAtual": false,
+      "atingiuMetaAnual": false,
+      "percentualAnual": 17,
+      "ultimaSubmissao": "2024-02-18"
+    },
+    {
+      "id": "501074",
+      "nome": "MARCIOCLEI FERREIRA DE SOUZA",
+      "departamento": "1063204 - FERRAMENTARIA AM",
       "ideiasSubmitidas": 3,
-      "metaAtual": 4,
+      "metaAtual": 6,
       "metaAnual": 12,
       "atingiuMetaAtual": false,
       "atingiuMetaAnual": false,
       "percentualAnual": 25,
-      "ultimaSubmissao": "2024-09-30"
+      "ultimaSubmissao": "2024-04-12"
     },
     {
-      "id": "004",
-      "nome": "Carlos Eduardo Lima",
-      "departamento": "Engenharia de Manutenção",
-      "ideiasSubmitidas": 12,
-      "metaAtual": 4,
+      "id": "501260",
+      "nome": "ANTONIO CARLOS GONCALVES DE MELO",
+      "departamento": "1063204 - FERRAMENTARIA AM",
+      "ideiasSubmitidas": 1,
+      "metaAtual": 6,
       "metaAnual": 12,
-      "atingiuMetaAtual": true,
-      "atingiuMetaAnual": true,
-      "percentualAnual": 100,
-      "ultimaSubmissao": "2024-11-25"
-    },
-    {
-      "id": "005",
-      "nome": "Fernanda Rodrigues",
-      "departamento": "Engenharia de Automação",
-      "ideiasSubmitidas": 6,
-      "metaAtual": 4,
-      "metaAnual": 12,
-      "atingiuMetaAtual": true,
+      "atingiuMetaAtual": false,
       "atingiuMetaAnual": false,
-      "percentualAnual": 50,
-      "ultimaSubmissao": "2024-11-10"
+      "percentualAnual": 8,
+      "ultimaSubmissao": "2024-01-15"
+    },
+    {
+      "id": "502299",
+      "nome": "JHOUSE CRAVEIRO DE OLIVEIRA",
+      "departamento": "1063204 - FERRAMENTARIA AM",
+      "ideiasSubmitidas": 3,
+      "metaAtual": 6,
+      "metaAnual": 12,
+      "atingiuMetaAtual": false,
+      "atingiuMetaAnual": false,
+      "percentualAnual": 25,
+      "ultimaSubmissao": "2024-03-22"
     }
   ]
 }
