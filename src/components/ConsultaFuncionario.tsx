@@ -1,0 +1,232 @@
+
+import React, { useState } from 'react';
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
+import { Button } from '@/components/ui/button';
+import { Input } from '@/components/ui/input';
+import { Badge } from '@/components/ui/badge';
+import { Progress } from '@/components/ui/progress';
+import { CheckCircle, Circle, Calendar, Info } from 'lucide-react';
+import { toast } from '@/hooks/use-toast';
+import mentesData from '@/data/mentesKriativasData.json';
+
+const ConsultaFuncionario = () => {
+  const [codigoFuncionario, setCodigoFuncionario] = useState('');
+  const [funcionarioEncontrado, setFuncionarioEncontrado] = useState<any>(null);
+  const [carregando, setCarregando] = useState(false);
+
+  const buscarFuncionario = async () => {
+    if (!codigoFuncionario.trim()) {
+      toast({
+        title: "Erro",
+        description: "Por favor, digite o código do funcionário.",
+        variant: "destructive"
+      });
+      return;
+    }
+
+    setCarregando(true);
+    
+    // Simular consulta à API
+    setTimeout(() => {
+      const funcionario = mentesData.consultaFuncionario.find(
+        f => f.id === codigoFuncionario.padStart(3, '0')
+      );
+
+      if (funcionario) {
+        setFuncionarioEncontrado(funcionario);
+        toast({
+          title: "Sucesso",
+          description: "Funcionário encontrado!",
+        });
+      } else {
+        setFuncionarioEncontrado(null);
+        toast({
+          title: "Não encontrado",
+          description: "Funcionário não encontrado no sistema.",
+          variant: "destructive"
+        });
+      }
+      setCarregando(false);
+    }, 1000);
+  };
+
+  const limparConsulta = () => {
+    setCodigoFuncionario('');
+    setFuncionarioEncontrado(null);
+  };
+
+  return (
+    <div className="space-y-6">
+      <Card>
+        <CardHeader>
+          <CardTitle className="flex items-center gap-2">
+            <Info className="h-5 w-5 text-blue-500" />
+            Consulta Serasa - Mentes Kriativas
+          </CardTitle>
+          <CardDescription>
+            Digite seu código de funcionário para consultar o status das suas metas
+          </CardDescription>
+        </CardHeader>
+        <CardContent>
+          <div className="flex gap-4 items-end">
+            <div className="flex-1">
+              <label htmlFor="codigo" className="text-sm font-medium mb-2 block">
+                Código do Funcionário
+              </label>
+              <Input
+                id="codigo"
+                placeholder="Digite seu código (ex: 001, 002, 003...)"
+                value={codigoFuncionario}
+                onChange={(e) => setCodigoFuncionario(e.target.value)}
+                onKeyPress={(e) => e.key === 'Enter' && buscarFuncionario()}
+              />
+            </div>
+            <Button 
+              onClick={buscarFuncionario} 
+              disabled={carregando}
+              className="bg-blue-600 hover:bg-blue-700"
+            >
+              {carregando ? 'Consultando...' : 'Consultar'}
+            </Button>
+            {funcionarioEncontrado && (
+              <Button variant="outline" onClick={limparConsulta}>
+                Nova Consulta
+              </Button>
+            )}
+          </div>
+        </CardContent>
+      </Card>
+
+      {funcionarioEncontrado && (
+        <div className="space-y-4">
+          {/* Informações do funcionário */}
+          <Card>
+            <CardHeader>
+              <CardTitle className="text-blue-600">{funcionarioEncontrado.nome}</CardTitle>
+              <CardDescription>{funcionarioEncontrado.departamento}</CardDescription>
+            </CardHeader>
+            <CardContent>
+              <div className="grid gap-4 md:grid-cols-2">
+                <div>
+                  <p className="text-sm text-muted-foreground">Última submissão</p>
+                  <div className="flex items-center gap-2 mt-1">
+                    <Calendar className="h-4 w-4 text-blue-500" />
+                    <span className="font-medium">
+                      {new Date(funcionarioEncontrado.ultimaSubmissao).toLocaleDateString('pt-BR')}
+                    </span>
+                  </div>
+                </div>
+                <div>
+                  <p className="text-sm text-muted-foreground">Total de ideias submetidas</p>
+                  <div className="text-2xl font-bold text-blue-600 mt-1">
+                    {funcionarioEncontrado.ideiasSubmitidas}
+                  </div>
+                </div>
+              </div>
+            </CardContent>
+          </Card>
+
+          {/* Status das metas */}
+          <div className="grid gap-4 md:grid-cols-2">
+            <Card className={`border-l-4 ${funcionarioEncontrado.atingiuMetaAtual ? 'border-l-green-500' : 'border-l-orange-500'}`}>
+              <CardHeader>
+                <CardTitle className="flex items-center gap-2 text-sm">
+                  {funcionarioEncontrado.atingiuMetaAtual ? (
+                    <CheckCircle className="h-4 w-4 text-green-500" />
+                  ) : (
+                    <Circle className="h-4 w-4 text-orange-500" />
+                  )}
+                  Meta Atual
+                </CardTitle>
+              </CardHeader>
+              <CardContent>
+                <div className="space-y-2">
+                  <div className="flex justify-between items-center">
+                    <span className="text-sm text-muted-foreground">Progresso</span>
+                    <Badge variant={funcionarioEncontrado.atingiuMetaAtual ? "default" : "secondary"}>
+                      {funcionarioEncontrado.atingiuMetaAtual ? 'Atingida' : 'Em andamento'}
+                    </Badge>
+                  </div>
+                  <div className="text-lg font-semibold">
+                    {funcionarioEncontrado.ideiasSubmitidas}/{funcionarioEncontrado.metaAtual}
+                  </div>
+                  <Progress 
+                    value={Math.min((funcionarioEncontrado.ideiasSubmitidas / funcionarioEncontrado.metaAtual) * 100, 100)} 
+                    className="h-2"
+                  />
+                </div>
+              </CardContent>
+            </Card>
+
+            <Card className={`border-l-4 ${funcionarioEncontrado.atingiuMetaAnual ? 'border-l-green-500' : 'border-l-blue-500'}`}>
+              <CardHeader>
+                <CardTitle className="flex items-center gap-2 text-sm">
+                  {funcionarioEncontrado.atingiuMetaAnual ? (
+                    <CheckCircle className="h-4 w-4 text-green-500" />
+                  ) : (
+                    <Circle className="h-4 w-4 text-blue-500" />
+                  )}
+                  Meta Anual
+                </CardTitle>
+              </CardHeader>
+              <CardContent>
+                <div className="space-y-2">
+                  <div className="flex justify-between items-center">
+                    <span className="text-sm text-muted-foreground">Progresso</span>
+                    <Badge variant={funcionarioEncontrado.atingiuMetaAnual ? "default" : "secondary"}>
+                      {funcionarioEncontrado.percentualAnual}%
+                    </Badge>
+                  </div>
+                  <div className="text-lg font-semibold">
+                    {funcionarioEncontrado.ideiasSubmitidas}/{funcionarioEncontrado.metaAnual}
+                  </div>
+                  <Progress 
+                    value={funcionarioEncontrado.percentualAnual} 
+                    className="h-2"
+                  />
+                </div>
+              </CardContent>
+            </Card>
+          </div>
+
+          {/* Dicas e incentivos */}
+          <Card className="bg-gradient-to-r from-blue-50 to-blue-100 dark:from-blue-950 dark:to-blue-900">
+            <CardHeader>
+              <CardTitle className="text-blue-700 dark:text-blue-300">
+                {funcionarioEncontrado.atingiuMetaAnual ? '🎉 Parabéns!' : '💡 Continue inovando!'}
+              </CardTitle>
+            </CardHeader>
+            <CardContent>
+              <p className="text-blue-600 dark:text-blue-400">
+                {funcionarioEncontrado.atingiuMetaAnual 
+                  ? 'Você já atingiu sua meta anual! Continue contribuindo com suas ideias inovadoras.'
+                  : funcionarioEncontrado.atingiuMetaAtual
+                    ? 'Você atingiu sua meta atual! Faltam apenas algumas ideias para completar sua meta anual.'
+                    : 'Continue submetendo suas ideias. Cada contribuição é valiosa para o programa Mentes Kriativas!'}
+              </p>
+            </CardContent>
+          </Card>
+        </div>
+      )}
+
+      {/* Instruções */}
+      {!funcionarioEncontrado && (
+        <Card>
+          <CardHeader>
+            <CardTitle>Como consultar?</CardTitle>
+          </CardHeader>
+          <CardContent>
+            <div className="space-y-2 text-sm text-muted-foreground">
+              <p>• Digite seu código de funcionário no campo acima</p>
+              <p>• Clique em "Consultar" para ver o status das suas metas</p>
+              <p>• Códigos de exemplo para teste: 001, 002, 003, 004, 005</p>
+              <p>• Em caso de dúvidas, entre em contato com o RH</p>
+            </div>
+          </CardContent>
+        </Card>
+      )}
+    </div>
+  );
+};
+
+export default ConsultaFuncionario;
