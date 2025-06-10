@@ -23,6 +23,10 @@ const Dashboard = () => {
   const percentualMetaAtual = Math.round((funcionariosMetaAtual / totalFuncionarios) * 100);
   const percentualMetaAnualFunc = Math.round((funcionariosMetaAnual / totalFuncionarios) * 100);
 
+  const totalDeIdeiasNoMesAtual = mentesData.kpi.filter((item) => {
+    if (item.Mês === "Junho")
+  })[0]
+
   // Dados para o gráfico mensal
   const dadosGraficoMensal = mentesData.kpi.map(item => ({
     mes: item.Mês.substring(0, 3),
@@ -85,13 +89,13 @@ const Dashboard = () => {
 
         <Card className="group hover:shadow-lg transition-all duration-300 border-l-4 border-l-orange-500 bg-gradient-to-br from-orange-50 to-orange-100 dark:from-orange-950 dark:to-orange-900">
           <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-3">
-            <CardTitle className="text-sm font-medium text-orange-700 dark:text-orange-300">Total de Participantes</CardTitle>
+            <CardTitle className="text-sm font-medium text-orange-700 dark:text-orange-300">Total de ideias enviadas no mês de Junho</CardTitle>
             <div className="w-10 h-10 bg-orange-500 rounded-full flex items-center justify-center">
-              <Users className="h-5 w-5 text-white" />
+              <CheckCircle className="h-5 w-5 text-white" />
             </div>
           </CardHeader>
           <CardContent>
-            <div className="text-3xl font-bold text-orange-800 dark:text-orange-200">{50}</div>
+            <div className="text-3xl font-bold text-orange-800 dark:text-orange-200">{totalDeIdeiasNoMesAtual}</div>
             <p className="text-sm text-orange-600 dark:text-orange-400 mt-1">
               Funcionários cadastrados
             </p>
