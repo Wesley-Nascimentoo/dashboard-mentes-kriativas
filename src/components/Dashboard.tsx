@@ -96,7 +96,7 @@ const Dashboard = () => {
           <CardContent>
             <div className="text-3xl font-bold text-orange-800 dark:text-orange-200">{totalDeIdeiasNoMesAtual}/67</div>
             <p className="text-sm text-orange-600 dark:text-orange-400 mt-1">
-              {porcentagemMesAtual} % da meta mensal atingida
+              {porcentagemMesAtual}% da meta mensal atingida
             </p>
             <Progress value={100} className="mt-3 h-2" />
           </CardContent>
