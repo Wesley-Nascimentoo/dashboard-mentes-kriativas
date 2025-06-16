@@ -36,7 +36,7 @@ const ConsultaFuncionario = () => {
         // Calcular dados baseados na nova estrutura
         const metaAtual = mentesData.atual[0]["Meta atual"];
         const dataLimite = mentesData.atual[0]["Data limite"];
-        const metaAnual = 12;
+        const metaAnual = 14;
         const ideiasSubmitidas = funcionario.total;
         
         const funcionarioCompleto = {
