@@ -10,8 +10,7 @@
   "Matricula": 501075,
   "Nome": "ADELINO JOSE DOS SANTOS SILVA",
   "total": 1,
-  "Descrição Seção": "1063203 - ENGENHARIA AM",
-  "Column8": 441
+  "Descrição Seção": "1063203 - ENGENHARIA AM"
  },
  {
   "Matricula": 501211,
@@ -226,7 +225,7 @@
  {
   "Matricula": 501083,
   "Nome": "JOSE GEORGE GONCALVES CALHEIROS",
-  "total": 113,
+  "total": 114,
   "Descrição Seção": "1063218 - ENG. PROCESSO AM"
  },
  {
@@ -286,7 +285,7 @@
  {
   "Matricula": 501080,
   "Nome": "MARIA GERLANE PENA DE ABREU",
-  "total": 8,
+  "total": 9,
   "Descrição Seção": "1063218 - ENG. PROCESSO AM"
  },
  {
@@ -304,7 +303,7 @@
  {
   "Matricula": 501079,
   "Nome": "SAMUEL LEITE MONTEIRO",
-  "total": 3,
+  "total": 5,
   "Descrição Seção": "1063218 - ENG. PROCESSO AM"
  },
  {
@@ -322,7 +321,7 @@
  {
   "Matricula": 501749,
   "Nome": "CLINGER PINTO LOPES",
-  "total": 7,
+  "total": 9,
   "Descrição Seção": "1063218 - ENG. PROCESSO AM"
  },
  {
@@ -367,7 +366,7 @@
  {
   "Mês": "Junho",
   "Meta": 67,
-  "Ideias enviadas": 49
+  "Ideias enviadas": 55
  },
  {
   "Mês": "Julho",
@@ -403,7 +402,7 @@
 "anual":[
  {
   "Meta": 770,
-  "Ideias enviadas": 449
+  "Ideias enviadas": 455
  }
 ]
 }
