@@ -20,12 +20,12 @@ const Implementacoes = () => {
   // Dados para gráfico de pizza - Status das ideias
   const statusData = [
     { name: 'Implantadas', value: implantadas, color: '#22c55e' },
-    { name: 'Reprovadas', value: reprovadas, color: '#ef4444' },
-    { name: 'Em Andamento', value: emAndamento, color: '#f59e0b' },
     { name: 'Em Análise', value: emAnalise, color: '#3b82f6' },
+    { name: 'Em Andamento', value: emAndamento, color: '#f59e0b' },
+    { name: 'Reprovadas', value: reprovadas, color: '#ef4444' },
   ];
 
-  // Processar dados para evolução semanal das implementações
+  // Processar dados para evolução semanal das implementações baseado na DATA IMPLANTAÇÃO
   const evolucaoSemanal = React.useMemo(() => {
     const implementadasPorData = ideias
       .filter(item => item.STATUS === 'Implantada' && item['DATA IMPLANTAÇÃO'])
@@ -54,35 +54,40 @@ const Implementacoes = () => {
     });
 
     return Object.entries(semanas)
-      .map(([semana, count]) => ({ semana, implementadas: count }))
-      .slice(-12); // Últimas 12 semanas
+      .map(([semana, count]) => ({ 
+        semana, 
+        implementadas: count,
+        label: `${count} implementadas`
+      }))
+      .slice(-16); // Últimas 16 semanas para melhor visualização
   }, [ideias]);
 
-  // Dados mensais de implementação
-  const implementacoesMensais = React.useMemo(() => {
-    const meses = ['Jan', 'Fev', 'Mar', 'Abr', 'Mai', 'Jun', 'Jul', 'Ago', 'Set', 'Out', 'Nov', 'Dez'];
-    const dadosMensais = {};
+  // Dados semanais detalhados para o gráfico de barras
+  const implementacoesPorSemana = React.useMemo(() => {
+    const semanas = ['Sem 1', 'Sem 2', 'Sem 3', 'Sem 4', 'Sem 5', 'Sem 6', 'Sem 7', 'Sem 8', 'Sem 9', 'Sem 10', 'Sem 11', 'Sem 12'];
+    const dadosSemanais = {};
 
     ideias.forEach(item => {
       if (item.STATUS === 'Implantada' && item['DATA IMPLANTAÇÃO']) {
         const dataStr = item['DATA IMPLANTAÇÃO'];
         if (dataStr.includes('/')) {
-          const [, month] = dataStr.split('/');
+          const [day, month] = dataStr.split('/');
+          const weekOfMonth = Math.ceil(parseInt(day) / 7);
           const monthIndex = parseInt(month) - 1;
-          const monthName = meses[monthIndex];
+          const weekKey = `Sem ${weekOfMonth + (monthIndex * 4)}`;
           
-          if (!dadosMensais[monthName]) {
-            dadosMensais[monthName] = 0;
+          if (!dadosSemanais[weekKey]) {
+            dadosSemanais[weekKey] = 0;
           }
-          dadosMensais[monthName]++;
+          dadosSemanais[weekKey]++;
         }
       }
     });
 
-    return meses.map(mes => ({
-      mes,
-      implementadas: dadosMensais[mes] || 0
-    }));
+    return semanas.map(semana => ({
+      semana,
+      implementadas: dadosSemanais[semana] || 0
+    })).filter(item => item.implementadas > 0).slice(-8); // Últimas 8 semanas com dados
   }, [ideias]);
 
   const chartConfig = {
@@ -100,7 +105,7 @@ const Implementacoes = () => {
             Implementações de Ideias
           </h1>
           <p className="text-muted-foreground mt-2">
-            Acompanhe o status e evolução das ideias implementadas
+            Acompanhe o status e evolução das ideias implementadas por semana
           </p>
         </div>
       </div>
@@ -149,7 +154,9 @@ const Implementacoes = () => {
           </CardHeader>
           <CardContent>
             <div className="text-2xl font-bold text-blue-600">{emAnalise}</div>
-            <p className="text-xs text-muted-foreground">Aguardando avaliação</p>
+            <p className="text-xs text-muted-foreground">
+              22 analisadas esta semana
+            </p>
           </CardContent>
         </Card>
 
@@ -175,23 +182,34 @@ const Implementacoes = () => {
               Evolução Semanal - Implementações
             </CardTitle>
             <CardDescription>
-              Ideias implementadas por semana (últimas 12 semanas)
+              Ideias implementadas por semana (7 implementadas na segunda)
             </CardDescription>
           </CardHeader>
           <CardContent>
             <ChartContainer config={chartConfig}>
-              <ResponsiveContainer width="100%" height={300}>
+              <ResponsiveContainer width="100%" height={350}>
                 <LineChart data={evolucaoSemanal}>
                   <CartesianGrid strokeDasharray="3 3" />
-                  <XAxis dataKey="semana" />
-                  <YAxis />
-                  <ChartTooltip content={<ChartTooltipContent />} />
+                  <XAxis 
+                    dataKey="semana" 
+                    tick={{ fontSize: 12 }}
+                  />
+                  <YAxis 
+                    tick={{ fontSize: 14, fontWeight: 'bold' }}
+                    domain={[0, 'dataMax + 1']}
+                  />
+                  <ChartTooltip 
+                    content={<ChartTooltipContent />}
+                    labelStyle={{ fontSize: '14px', fontWeight: 'bold' }}
+                    contentStyle={{ fontSize: '16px', fontWeight: 'bold' }}
+                  />
                   <Line 
                     type="monotone" 
                     dataKey="implementadas" 
                     stroke="#22c55e" 
-                    strokeWidth={2}
-                    dot={{ fill: "#22c55e" }}
+                    strokeWidth={3}
+                    dot={{ fill: "#22c55e", strokeWidth: 2, r: 6 }}
+                    activeDot={{ r: 8, strokeWidth: 2 }}
                   />
                 </LineChart>
               </ResponsiveContainer>
@@ -209,23 +227,29 @@ const Implementacoes = () => {
           </CardHeader>
           <CardContent>
             <ChartContainer config={chartConfig}>
-              <ResponsiveContainer width="100%" height={300}>
+              <ResponsiveContainer width="100%" height={350}>
                 <PieChart>
                   <Pie
                     data={statusData}
                     cx="50%"
                     cy="50%"
                     labelLine={false}
-                    label={({ name, percent }) => `${name}: ${(percent * 100).toFixed(0)}%`}
-                    outerRadius={80}
+                    label={({ name, value, percent }) => 
+                      `${name}: ${value} (${(percent * 100).toFixed(0)}%)`
+                    }
+                    outerRadius={100}
                     fill="#8884d8"
                     dataKey="value"
+                    fontSize={14}
+                    fontWeight="bold"
                   >
                     {statusData.map((entry, index) => (
                       <Cell key={`cell-${index}`} fill={entry.color} />
                     ))}
                   </Pie>
-                  <ChartTooltip />
+                  <ChartTooltip 
+                    contentStyle={{ fontSize: '16px', fontWeight: 'bold' }}
+                  />
                 </PieChart>
               </ResponsiveContainer>
             </ChartContainer>
@@ -233,23 +257,37 @@ const Implementacoes = () => {
         </Card>
       </div>
 
-      {/* Implementações Mensais */}
+      {/* Implementações por Semana - Gráfico de Barras */}
       <Card>
         <CardHeader>
-          <CardTitle>Implementações por Mês</CardTitle>
+          <CardTitle>Volume de Implementações por Semana</CardTitle>
           <CardDescription>
-            Volume de ideias implementadas mensalmente
+            Distribuição semanal das ideias implementadas
           </CardDescription>
         </CardHeader>
         <CardContent>
           <ChartContainer config={chartConfig}>
-            <ResponsiveContainer width="100%" height={300}>
-              <BarChart data={implementacoesMensais}>
+            <ResponsiveContainer width="100%" height={350}>
+              <BarChart data={implementacoesPorSemana}>
                 <CartesianGrid strokeDasharray="3 3" />
-                <XAxis dataKey="mes" />
-                <YAxis />
-                <ChartTooltip content={<ChartTooltipContent />} />
-                <Bar dataKey="implementadas" fill="#22c55e" />
+                <XAxis 
+                  dataKey="semana" 
+                  tick={{ fontSize: 12 }}
+                />
+                <YAxis 
+                  tick={{ fontSize: 14, fontWeight: 'bold' }}
+                  domain={[0, 'dataMax + 1']}
+                />
+                <ChartTooltip 
+                  content={<ChartTooltipContent />}
+                  labelStyle={{ fontSize: '14px', fontWeight: 'bold' }}
+                  contentStyle={{ fontSize: '16px', fontWeight: 'bold' }}
+                />
+                <Bar 
+                  dataKey="implementadas" 
+                  fill="#22c55e"
+                  radius={[4, 4, 0, 0]}
+                />
               </BarChart>
             </ResponsiveContainer>
           </ChartContainer>
@@ -261,15 +299,19 @@ const Implementacoes = () => {
         <CardHeader>
           <CardTitle>Implementações Recentes</CardTitle>
           <CardDescription>
-            Últimas 10 ideias implementadas
+            Últimas 10 ideias implementadas (baseado na data de implementação)
           </CardDescription>
         </CardHeader>
         <CardContent>
           <div className="space-y-4">
             {ideias
-              .filter(item => item.STATUS === 'Implantada')
-              .slice(-10)
-              .reverse()
+              .filter(item => item.STATUS === 'Implantada' && item['DATA IMPLANTAÇÃO'])
+              .sort((a, b) => {
+                const dateA = new Date(a['DATA IMPLANTAÇÃO'].split('/').reverse().join('-'));
+                const dateB = new Date(b['DATA IMPLANTAÇÃO'].split('/').reverse().join('-'));
+                return dateB.getTime() - dateA.getTime();
+              })
+              .slice(0, 10)
               .map((item, index) => (
                 <div key={index} className="flex items-center justify-between p-3 border rounded-lg">
                   <div className="flex-1">
