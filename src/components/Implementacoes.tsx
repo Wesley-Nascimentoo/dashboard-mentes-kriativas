@@ -1,9 +1,10 @@
+
 import React from 'react';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { ChartContainer, ChartTooltip, ChartTooltipContent } from '@/components/ui/chart';
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, ResponsiveContainer, LineChart, Line, PieChart, Pie, Cell } from 'recharts';
 import { Badge } from '@/components/ui/badge';
-import { Calendar, CheckCircle, Clock, XCircle, AlertCircle, TrendingUp } from 'lucide-react';
+import { Calendar, CheckCircle, Clock, XCircle, AlertCircle, TrendingUp, BarChart3 } from 'lucide-react';
 import implementsData from '@/data/implementsData.json';
 
 const Implementacoes = () => {
@@ -128,15 +129,15 @@ const Implementacoes = () => {
 
       {/* Gráficos */}
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
-        {/* Evolução Semanal */}
+        {/* Evolução Semanal - Gráfico de Linha */}
         <Card>
           <CardHeader>
             <CardTitle className="flex items-center gap-2">
               <TrendingUp className="h-5 w-5" />
-              Evolução Semanal - Implementações
+              Evolução Semanal - Linha
             </CardTitle>
             <CardDescription>
-              Ideias implementadas por semana
+              Tendência das implementações por semana
             </CardDescription>
           </CardHeader>
           <CardContent>
@@ -167,6 +168,60 @@ const Implementacoes = () => {
           </CardContent>
         </Card>
 
+        {/* Evolução Semanal - Gráfico de Barras */}
+        <Card>
+          <CardHeader>
+            <CardTitle className="flex items-center gap-2">
+              <BarChart3 className="h-5 w-5" />
+              Evolução Semanal - Barras
+            </CardTitle>
+            <CardDescription>
+              Quantidade de implementações por semana
+            </CardDescription>
+          </CardHeader>
+          <CardContent>
+            <ChartContainer config={chartConfig}>
+              <ResponsiveContainer width="100%" height={350}>
+                <BarChart data={evolucaoSemanal}>
+                  <CartesianGrid strokeDasharray="3 3" />
+                  <XAxis 
+                    dataKey="semana" 
+                    fontSize={12}
+                    angle={-45}
+                    textAnchor="end"
+                    height={80}
+                  />
+                  <YAxis fontSize={14} />
+                  <ChartTooltip content={<ChartTooltipContent />} />
+                  <Bar 
+                    dataKey="implementadas" 
+                    fill="#22c55e"
+                    radius={[4, 4, 0, 0]}
+                  >
+                    {/* Labels nas barras */}
+                    {evolucaoSemanal.map((entry, index) => (
+                      <text
+                        key={index}
+                        x={index * (100 / evolucaoSemanal.length) + (100 / evolucaoSemanal.length) / 2 + '%'}
+                        y={350 - (entry.implementadas / Math.max(...evolucaoSemanal.map(d => d.implementadas))) * 300 - 10}
+                        textAnchor="middle"
+                        fontSize={14}
+                        fontWeight="bold"
+                        fill="#22c55e"
+                      >
+                        {entry.implementadas}
+                      </text>
+                    ))}
+                  </Bar>
+                </BarChart>
+              </ResponsiveContainer>
+            </ChartContainer>
+          </CardContent>
+        </Card>
+      </div>
+
+      {/* Segunda linha de gráficos */}
+      <div className="grid grid-cols-1 lg:grid-cols-1 gap-6">
         {/* Status das Ideias - Gráfico de Pizza */}
         <Card>
           <CardHeader>
@@ -233,7 +288,7 @@ const Implementacoes = () => {
               ))}
           </div>
         </CardContent>
-      </Card>
+      </div>
     </div>
   );
 };
