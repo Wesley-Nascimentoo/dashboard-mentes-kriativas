@@ -1,0 +1,1629 @@
+{
+"HISTORICO":[
+ {
+  "N° ID": 1502,
+  "IDEIA ": "Redefinir layout dos postos de preparção dos gabinetes",
+  "STATUS": "Implantada",
+  "DATA APROVAÇÃO": "04\/062024",
+  "DATA IMPLANTAÇÃO": "6\/3\/2025"
+ },
+ {
+  "N° ID": 1510,
+  "IDEIA ": "Melhoria no processo de abastecimento das molduras",
+  "STATUS": "Implantada",
+  "DATA APROVAÇÃO": "6\/4\/2024",
+  "DATA IMPLANTAÇÃO": "6\/2\/2025"
+ },
+ {
+  "N° ID": 2089,
+  "IDEIA ": "Adicionar uma esteira com trilho CM-150",
+  "STATUS": "Implantada",
+  "DATA APROVAÇÃO": "8\/13\/2024",
+  "DATA IMPLANTAÇÃO": "6\/2\/2025"
+ },
+ {
+  "N° ID": 4047,
+  "IDEIA ": "suporte para apoio da caixa cm-400",
+  "STATUS": "Implantada",
+  "DATA APROVAÇÃO": "1\/31\/2025",
+  "DATA IMPLANTAÇÃO": "6\/5\/2025"
+ },
+ {
+  "N° ID": 4708,
+  "IDEIA ": "retirada de graxa e ganho de tempo",
+  "STATUS": "Implantada",
+  "DATA APROVAÇÃO": "2\/20\/2025",
+  "DATA IMPLANTAÇÃO": "6\/5\/2025"
+ },
+ {
+  "N° ID": 4538,
+  "IDEIA ": "barrereira para evitar contatos dos trilhos com a talisca",
+  "STATUS": "Implantada",
+  "DATA APROVAÇÃO": "2\/17\/2025",
+  "DATA IMPLANTAÇÃO": "6\/5\/2025"
+ },
+ {
+  "N° ID": 6914,
+  "IDEIA ": "suporte para ferros de solda",
+  "STATUS": "Implantada",
+  "DATA APROVAÇÃO": "4\/22\/2025",
+  "DATA IMPLANTAÇÃO": "6\/5\/2025"
+ },
+ {
+  "N° ID": 6583,
+  "IDEIA ": "proteção para os cabos do dumi",
+  "STATUS": "Implantada",
+  "DATA APROVAÇÃO": "4\/3\/2025",
+  "DATA IMPLANTAÇÃO": "6\/5\/2025"
+ },
+ {
+  "N° ID": 4779,
+  "IDEIA ": "suporte para adiandar caixas do TW",
+  "STATUS": "Implantada",
+  "DATA APROVAÇÃO": "2\/21\/2025",
+  "DATA IMPLANTAÇÃO": "6\/5\/2025"
+ },
+ {
+  "N° ID": 4843,
+  "IDEIA ": "fixar mesa montagem TW",
+  "STATUS": "Implantada",
+  "DATA APROVAÇÃO": "2\/24\/2025",
+  "DATA IMPLANTAÇÃO": "6\/5\/2025"
+ },
+ {
+  "N° ID": 4924,
+  "IDEIA ": "Criar um suporte dentro da cabine de teste MWO.",
+  "STATUS": "Implantada",
+  "DATA APROVAÇÃO": "2\/25\/2025",
+  "DATA IMPLANTAÇÃO": "6\/5\/2025"
+ },
+ {
+  "N° ID": 5244,
+  "IDEIA ": "Desenvolvimento de apoio estruturado para as TV's 43\" e 50\" ",
+  "STATUS": "Implantada",
+  "DATA APROVAÇÃO": "3\/13\/2025",
+  "DATA IMPLANTAÇÃO": "6\/5\/2025"
+ },
+ {
+  "N° ID": 5316,
+  "IDEIA ": "Melhoria na esteira talisca da TV 32",
+  "STATUS": "Implantada",
+  "DATA APROVAÇÃO": "3\/18\/2025",
+  "DATA IMPLANTAÇÃO": "6\/5\/2025"
+ },
+ {
+  "N° ID": 6583,
+  "IDEIA ": "Evitar rompimento do cabo de alimentação do dumi ",
+  "STATUS": "Implantada",
+  "DATA APROVAÇÃO": "4\/3\/2025",
+  "DATA IMPLANTAÇÃO": "6\/5\/2025"
+ },
+ {
+  "N° ID": 6622,
+  "IDEIA ": "redução de WIP das placas do CR- KTC",
+  "STATUS": "Implantada",
+  "DATA APROVAÇÃO": "4\/5\/2025",
+  "DATA IMPLANTAÇÃO": "6\/5\/2025"
+ },
+ {
+  "N° ID": 6652,
+  "IDEIA ": "uma bancada anexa ao teste tw para preparação do dissipador",
+  "STATUS": "Implantada",
+  "DATA APROVAÇÃO": "4\/8\/2025",
+  "DATA IMPLANTAÇÃO": "6\/5\/2025"
+ },
+ {
+  "N° ID": 6914,
+  "IDEIA ": "colocar suportes para os ferros de solda ",
+  "STATUS": "Implantada",
+  "DATA APROVAÇÃO": "4\/22\/2025",
+  "DATA IMPLANTAÇÃO": "6\/5\/2025"
+ },
+ {
+  "N° ID": 7283,
+  "IDEIA ": "colocar dois suportes de rolos para etiquetas ",
+  "STATUS": "Implantada",
+  "DATA APROVAÇÃO": "5\/13\/2025",
+  "DATA IMPLANTAÇÃO": "6\/5\/2025"
+ },
+ {
+  "N° ID": 7285,
+  "IDEIA ": "baixar a bancada das portas do microondas",
+  "STATUS": "Implantada",
+  "DATA APROVAÇÃO": "5\/13\/2025",
+  "DATA IMPLANTAÇÃO": "6\/5\/2025"
+ },
+ {
+  "N° ID": 7385,
+  "IDEIA ": "Retirada de Suporte do Magazine do corredor",
+  "STATUS": "Implantada",
+  "DATA APROVAÇÃO": "5\/19\/2025",
+  "DATA IMPLANTAÇÃO": "6\/5\/2025"
+ },
+ {
+  "N° ID": 2370,
+  "IDEIA ": "Melhorar a bancada de reparo do alto falante",
+  "STATUS": "Implantada",
+  "DATA APROVAÇÃO": "8\/26\/2024",
+  "DATA IMPLANTAÇÃO": "6\/2\/2025"
+ },
+ {
+  "N° ID": 2612,
+  "IDEIA ": "Melhoria na bancada do posto 19 da linha do 43",
+  "STATUS": "Implantada",
+  "DATA APROVAÇÃO": "9\/18\/2024",
+  "DATA IMPLANTAÇÃO": "6\/3\/2025"
+ },
+ {
+  "N° ID": 2746,
+  "IDEIA ": "COLOCAR UMA ESTEIRA NO POSTO DO CONTROLE REMOTO APOS A PRENSA",
+  "STATUS": "Implantada",
+  "DATA APROVAÇÃO": "9\/30\/2024",
+  "DATA IMPLANTAÇÃO": "6\/2\/2025"
+ },
+ {
+  "N° ID": 2925,
+  "IDEIA ": "melhoria no processo de teste do display do modelo cm700",
+  "STATUS": "Implantada",
+  "DATA APROVAÇÃO": "10\/11\/2024",
+  "DATA IMPLANTAÇÃO": "6\/2\/2025"
+ },
+ {
+  "N° ID": 2926,
+  "IDEIA ": "Melhoria no acondicionamento das placas que são enviadas da IM para o PA,",
+  "STATUS": "Implantada",
+  "DATA APROVAÇÃO": " 11\/10\/2024",
+  "DATA IMPLANTAÇÃO": "6\/3\/2025"
+ },
+ {
+  "N° ID": 3031,
+  "IDEIA ": "os pallet frouxos e velhos a minha ideia é melhoria deles",
+  "STATUS": "Implantada",
+  "DATA APROVAÇÃO": "10\/21\/2024",
+  "DATA IMPLANTAÇÃO": "6\/3\/2025"
+ },
+ {
+  "N° ID": 3097,
+  "IDEIA ": "alicate com balança",
+  "STATUS": "Implantada",
+  "DATA APROVAÇÃO": "10\/22\/2024",
+  "DATA IMPLANTAÇÃO": "6\/2\/2025"
+ },
+ {
+  "N° ID": 3225,
+  "IDEIA ": "mudar as caixa de papelão , por caixa \"vai e vem\" (preto)",
+  "STATUS": "Implantada",
+  "DATA APROVAÇÃO": "10\/30\/2024",
+  "DATA IMPLANTAÇÃO": "6\/3\/2025"
+ },
+ {
+  "N° ID": 3399,
+  "IDEIA ": "colocar um suporte para melhorar a pegada da manta no embalagem",
+  "STATUS": "Implantada",
+  "DATA APROVAÇÃO": "11\/21\/2024",
+  "DATA IMPLANTAÇÃO": "6\/2\/2025"
+ },
+ {
+  "N° ID": 3599,
+  "IDEIA ": "Inserir um material mas resistente na demarcação da esteira do MWO",
+  "STATUS": "Implantada",
+  "DATA APROVAÇÃO": "12\/12\/2024",
+  "DATA IMPLANTAÇÃO": "6\/3\/2025"
+ },
+ {
+  "N° ID": 5017,
+  "IDEIA ": "Melhoria na altura do dispositivo da tweeter TM",
+  "STATUS": "Implantada",
+  "DATA APROVAÇÃO": " 27\/02\/2025",
+  "DATA IMPLANTAÇÃO": "6\/3\/2025"
+ },
+ {
+  "N° ID": 6753,
+  "IDEIA ": "área dedicada para a preparação dos banners",
+  "STATUS": "Implantada",
+  "DATA APROVAÇÃO": "4\/12\/2025",
+  "DATA IMPLANTAÇÃO": "6\/3\/2025"
+ },
+ {
+  "N° ID": 3127,
+  "IDEIA ": "1 caixinha para colocar relatórios e colocar junto também a calculadora",
+  "STATUS": "Implantada",
+  "DATA APROVAÇÃO": "10\/22\/2024",
+  "DATA IMPLANTAÇÃO": "5\/27\/2025"
+ },
+ {
+  "N° ID": 4808,
+  "IDEIA ": "Película nas mesas que levam o TW",
+  "STATUS": "Reprovada",
+  "OBSERVAÇÃO": "Não aplicável",
+  "DATA APROVAÇÃO": "2\/21\/2025",
+  "DATA IMPLANTAÇÃO": "6\/3\/2025"
+ },
+ {
+  "N° ID": 4809,
+  "IDEIA ": "Colocar uma esteira da montagem da cauca até a prensa.",
+  "STATUS": "Reprovada",
+  "OBSERVAÇÃO": "Não aplicável",
+  "DATA APROVAÇÃO": "2\/21\/2025",
+  "DATA IMPLANTAÇÃO": "6\/3\/2025"
+ },
+ {
+  "N° ID": 4780,
+  "IDEIA ": " Bancada pra painel preparado.",
+  "STATUS": "Implantada",
+  "DATA APROVAÇÃO": "2\/21\/2025",
+  "DATA IMPLANTAÇÃO": "6\/3\/2025"
+ },
+ {
+  "N° ID": 5228,
+  "IDEIA ": "POSICIONAR MANTA VERDE NA PARTE INFERIOR DA BANCADA DE PREPRAÇÃO ",
+  "STATUS": "Implantada",
+  "DATA APROVAÇÃO": "3\/13\/2025",
+  "DATA IMPLANTAÇÃO": "6\/4\/2025"
+ },
+ {
+  "N° ID": 5099,
+  "IDEIA ": "Melhoria no uso da fita na embalagem do BBS",
+  "STATUS": "Implantada",
+  "DATA APROVAÇÃO": "3\/7\/2025",
+  "DATA IMPLANTAÇÃO": "6\/4\/2025"
+ },
+ {
+  "N° ID": 7491,
+  "IDEIA ": "colocar tubos para servir de suporte de material",
+  "STATUS": "Implantada",
+  "DATA APROVAÇÃO": "5\/23\/2025",
+  "DATA IMPLANTAÇÃO": "6\/4\/2025"
+ },
+ {
+  "N° ID": 7562,
+  "IDEIA ": "troca de suporte da fita de fechamento da boombox",
+  "STATUS": "Implantada",
+  "DATA APROVAÇÃO": "5\/26\/2025",
+  "DATA IMPLANTAÇÃO": "6\/4\/2025"
+ },
+ {
+  "N° ID": 5017,
+  "IDEIA ": " Melhoria na altura do dispositivo da tweeter TM ",
+  "STATUS": "Implantada",
+  "DATA APROVAÇÃO": "2\/27\/2025",
+  "DATA IMPLANTAÇÃO": "6\/2\/2025"
+ },
+ {
+  "N° ID": 3094,
+  "IDEIA ": "onfeccionar uma suporte para resíduos de solda na linha A",
+  "STATUS": "Implantada",
+  "DATA APROVAÇÃO": "10\/22\/2024",
+  "DATA IMPLANTAÇÃO": "5\/29\/2025"
+ },
+ {
+  "N° ID": 6752,
+  "IDEIA ": "Melhoria na estrutura da colagem dos banners TW",
+  "STATUS": "Implantada",
+  "DATA APROVAÇÃO": "4\/12\/2025",
+  "DATA IMPLANTAÇÃO": "6\/3\/2025"
+ },
+ {
+  "N° ID": 5361,
+  "IDEIA ": "Melhoria na transferência nos processos de fechamento da caixa TW",
+  "STATUS": "Implantada",
+  "DATA APROVAÇÃO": "3\/21\/2025",
+  "DATA IMPLANTAÇÃO": "6\/3\/2025"
+ },
+ {
+  "N° ID": 7673,
+  "IDEIA ": "Aprimorar o design do ornamento do diafragma para ocupar menos espaço.",
+  "STATUS": "Implantada",
+  "DATA APROVAÇÃO": "5\/28\/2025",
+  "DATA IMPLANTAÇÃO": "6\/4\/2025"
+ },
+ {
+  "N° ID": 7676,
+  "IDEIA ": "Otimização da base de armazenagem do diafragma ",
+  "STATUS": "Implantada",
+  "DATA APROVAÇÃO": "5\/29\/2025",
+  "DATA IMPLANTAÇÃO": "6\/4\/2025"
+ },
+ {
+  "N° ID": 7375,
+  "IDEIA ": "Padronizar os paletes da linha do CM 550L\/400 ",
+  "STATUS": "Implantada",
+  "DATA APROVAÇÃO": "5\/19\/2025",
+  "DATA IMPLANTAÇÃO": "6\/4\/2025"
+ },
+ {
+  "N° ID": 4428,
+  "IDEIA ": "aumenta o suporte de caixa",
+  "STATUS": "Implantada",
+  "DATA APROVAÇÃO": "2\/13\/2025",
+  "DATA IMPLANTAÇÃO": "6\/2\/2025"
+ },
+ {
+  "N° ID": 4430,
+  "IDEIA ": "melhorar a produção e reposição do posto 22",
+  "STATUS": "Implantada",
+  "DATA APROVAÇÃO": " 13\/02\/2025",
+  "DATA IMPLANTAÇÃO": "6\/3\/2025"
+ },
+ {
+  "N° ID": 4435,
+  "IDEIA ": "manuseio de quadro para liberação de espaço no micro-ondas",
+  "STATUS": "Implantada",
+  "DATA APROVAÇÃO": "2\/13\/2025",
+  "DATA IMPLANTAÇÃO": "6\/2\/2025"
+ },
+ {
+  "N° ID": 4444,
+  "IDEIA ": "Colocar uma esteira de trabalho no posto 18.",
+  "STATUS": "Reprovada",
+  "OBSERVAÇÃO": "Duplicada",
+  "DATA APROVAÇÃO": "2\/13\/2025",
+  "DATA IMPLANTAÇÃO": "6\/2\/2025"
+ },
+ {
+  "N° ID": 4452,
+  "IDEIA ": "Aumentar o espaço da linha.",
+  "STATUS": "Reprovada",
+  "OBSERVAÇÃO": "Não aplicável",
+  "DATA APROVAÇÃO": "2\/13\/2025",
+  "DATA IMPLANTAÇÃO": "6\/3\/2025"
+ },
+ {
+  "N° ID": 4492,
+  "IDEIA ": "Melhoria de segurança no posto 1 do TM",
+  "STATUS": "Implantada",
+  "DATA APROVAÇÃO": "2\/14\/2025",
+  "DATA IMPLANTAÇÃO": "6\/2\/2025"
+ },
+ {
+  "N° ID": 4550,
+  "IDEIA ": "colocar um ventilador pra sucção da cola no ar no posto 30",
+  "STATUS": "Reprovada",
+  "OBSERVAÇÃO": "Não aplicável",
+  "DATA APROVAÇÃO": "2\/18\/2025",
+  "DATA IMPLANTAÇÃO": "6\/2\/2025"
+ },
+ {
+  "N° ID": 4569,
+  "IDEIA ": "Diminuir o espaço da cabine (janela), só assim evitar defeitos.",
+  "STATUS": "Implantada",
+  "DATA APROVAÇÃO": "2\/18\/2025",
+  "DATA IMPLANTAÇÃO": "6\/3\/2025"
+ },
+ {
+  "N° ID": 4613,
+  "IDEIA ": "colocar um suporte para o fechamento do BX",
+  "STATUS": "Reprovada",
+  "OBSERVAÇÃO": "Não aplicável",
+  "DATA APROVAÇÃO": "2\/19\/2025",
+  "DATA IMPLANTAÇÃO": "6\/2\/2025"
+ },
+ {
+  "N° ID": 4674,
+  "IDEIA ": "recipiente para colocar as baterias léstadas e preparadas",
+  "STATUS": "Implantada",
+  "DATA APROVAÇÃO": "2\/20\/2025",
+  "DATA IMPLANTAÇÃO": "6\/3\/2025"
+ },
+ {
+  "N° ID": 4750,
+  "IDEIA ": "adicionar mais uma prateleira de moldura montada CM 550",
+  "STATUS": "Implantada",
+  "DATA APROVAÇÃO": "2\/21\/2025",
+  "DATA IMPLANTAÇÃO": "6\/3\/2025"
+ },
+ {
+  "N° ID": 4768,
+  "IDEIA ": "Adaptar prateleiras nas cabines de teste.",
+  "STATUS": "Reprovada",
+  "OBSERVAÇÃO": "Duplicada",
+  "DATA APROVAÇÃO": "2\/21\/2025",
+  "DATA IMPLANTAÇÃO": "6\/2\/2025"
+ },
+ {
+  "N° ID": 4713,
+  "IDEIA ": "Melhoria para CM150, ter como acessório uma lâmpada auxiliar",
+  "STATUS": "Implantada",
+  "DATA APROVAÇÃO": "2\/20\/2025",
+  "DATA IMPLANTAÇÃO": "6\/4\/2025"
+ },
+ {
+  "N° ID": 4649,
+  "IDEIA ": " Facilitar a visualização no momento do mapeamento do manual",
+  "STATUS": "Implantada",
+  "DATA APROVAÇÃO": "2\/19\/2025",
+  "DATA IMPLANTAÇÃO": "6\/4\/2025"
+ },
+ {
+  "N° ID": 4653,
+  "IDEIA ": "Reduzir bancadas para gerar espaço físico no processo",
+  "STATUS": "Implantada",
+  "DATA APROVAÇÃO": "2\/19\/2025",
+  "DATA IMPLANTAÇÃO": "6\/4\/2025"
+ },
+ {
+  "N° ID": 4596,
+  "IDEIA ": "fazer uma mesa para melhorar o manuseio da bateria do CM 700",
+  "STATUS": "Implantada",
+  "DATA APROVAÇÃO": "2\/19\/2025",
+  "DATA IMPLANTAÇÃO": "6\/5\/2025"
+ },
+ {
+  "N° ID": 1501,
+  "IDEIA ": "realizar suporte de solda, na ponta da esteira",
+  "STATUS": "Reprovada",
+  "OBSERVAÇÃO": "Duplicada",
+  "DATA APROVAÇÃO": "10\/22\/2024",
+  "DATA IMPLANTAÇÃO": "5\/26\/2025"
+ },
+ {
+  "N° ID": 3382,
+  "IDEIA ": "dispositivo pneumatico com a pressão controlada",
+  "STATUS": "Reprovada",
+  "OBSERVAÇÃO": "Não aplicável",
+  "DATA APROVAÇÃO": "11\/19\/2024",
+  "DATA IMPLANTAÇÃO": "5\/27\/2025"
+ },
+ {
+  "N° ID": 3373,
+  "IDEIA ": "Colocar uma alavanca no molde",
+  "STATUS": "Reprovada",
+  "OBSERVAÇÃO": "Não aplicável",
+  "DATA APROVAÇÃO": "11\/19\/2024",
+  "DATA IMPLANTAÇÃO": "5\/26\/2025"
+ },
+ {
+  "N° ID": 3060,
+  "IDEIA ": "Um suporte\/base para o material de limpeza no posto 1 da linha tw",
+  "STATUS": "Reprovada",
+  "OBSERVAÇÃO": "Não aplicável",
+  "DATA APROVAÇÃO": "10\/21\/2024",
+  "DATA IMPLANTAÇÃO": "5\/26\/2025"
+ },
+ {
+  "N° ID": 3236,
+  "IDEIA ": "Troca de suporte dos paletes",
+  "STATUS": "Reprovada",
+  "OBSERVAÇÃO": "Não aplicável",
+  "DATA APROVAÇÃO": "10\/30\/2024",
+  "DATA IMPLANTAÇÃO": "5\/26\/2025"
+ },
+ {
+  "N° ID": 3095,
+  "IDEIA ": "realizar suporte de solda, na ponta da esteira",
+  "STATUS": "Reprovada",
+  "OBSERVAÇÃO": "Duplicada",
+  "DATA APROVAÇÃO": "10\/22\/2024",
+  "DATA IMPLANTAÇÃO": "5\/27\/2025"
+ },
+ {
+  "N° ID": 6758,
+  "IDEIA ": "Suporte para o aparelho de teste da bateria CM-700.",
+  "STATUS": "Implantada",
+  "DATA APROVAÇÃO": "4\/14\/2025",
+  "DATA IMPLANTAÇÃO": "6\/5\/2025"
+ },
+ {
+  "N° ID": 3077,
+  "IDEIA ": "Fazer um dispositivo para colocar o código de barra de emb. coletiva",
+  "STATUS": "Implantada",
+  "DATA APROVAÇÃO": "10\/21\/2024",
+  "DATA IMPLANTAÇÃO": "5\/27\/2025"
+ },
+ {
+  "N° ID": 5550,
+  "IDEIA ": "Mudança de layout na bancada da PCI LED CM - 400",
+  "STATUS": "Implantada",
+  "DATA APROVAÇÃO": "4\/1\/2025",
+  "DATA IMPLANTAÇÃO": "5\/26\/2025"
+ },
+ {
+  "N° ID": 3228,
+  "IDEIA ": "posto:30 meu posto tem suporte ,que segura as caixas nos pratos ",
+  "STATUS": "Implantada",
+  "DATA APROVAÇÃO": "10\/30\/2024",
+  "DATA IMPLANTAÇÃO": "26\/052025"
+ },
+ {
+  "N° ID": 2624,
+  "IDEIA ": "Melhorar a mesa da bancada de reparo",
+  "STATUS": "Implantada",
+  "DATA APROVAÇÃO": "9\/19\/2024",
+  "DATA IMPLANTAÇÃO": "5\/27\/2025"
+ },
+ {
+  "N° ID": 3534,
+  "IDEIA ": "Fazer um suporte para o martelo.",
+  "STATUS": "Implantada",
+  "DATA APROVAÇÃO": "12\/5\/2024",
+  "DATA IMPLANTAÇÃO": "5\/26\/2025"
+ },
+ {
+  "N° ID": 3127,
+  "IDEIA ": "1 caixinha para colocar relatórios e colocar junto também a calculadora",
+  "STATUS": "Implantada",
+  "DATA APROVAÇÃO": "10\/22\/2024",
+  "DATA IMPLANTAÇÃO": "5\/27\/2025"
+ },
+ {
+  "N° ID": 4645,
+  "IDEIA ": "Melhoria no posto de parafusamento do led CM-400",
+  "STATUS": "Implantada",
+  "DATA APROVAÇÃO": "2\/19\/2025",
+  "DATA IMPLANTAÇÃO": "6\/3\/2025"
+ },
+ {
+  "N° ID": 3297,
+  "IDEIA ": "Armazenamento de cola na linha da PCI Fonte do CM700",
+  "STATUS": "Implantada",
+  "DATA APROVAÇÃO": "11\/9\/2024",
+  "DATA IMPLANTAÇÃO": "5\/26\/2025"
+ },
+ {
+  "N° ID": 4029,
+  "IDEIA ": "Otimização de espaço nos postos de aplicação de cola",
+  "STATUS": "Implantada",
+  "DATA APROVAÇÃO": "1\/30\/2025",
+  "DATA IMPLANTAÇÃO": "5\/26\/2025"
+ },
+ {
+  "N° ID": 4844,
+  "IDEIA ": "suporte para armazenamento de de etiqueta",
+  "STATUS": "Implantada",
+  "DATA APROVAÇÃO": "2\/24\/2025",
+  "DATA IMPLANTAÇÃO": "5\/26\/2025"
+ },
+ {
+  "N° ID": 5165,
+  "IDEIA ": "Material distante da bancada",
+  "STATUS": "Implantada",
+  "DATA APROVAÇÃO": "3\/11\/2025",
+  "DATA IMPLANTAÇÃO": "5\/26\/2025"
+ },
+ {
+  "N° ID": 3410,
+  "IDEIA ": " Parafusadeira",
+  "STATUS": "Implantada",
+  "DATA APROVAÇÃO": "11\/21\/2024",
+  "DATA IMPLANTAÇÃO": "5\/28\/2025"
+ },
+ {
+  "N° ID": 1715,
+  "IDEIA ": "Desenvolver base circular para facilitar o giro do aparelho",
+  "STATUS": "Implantada",
+  "DATA APROVAÇÃO": "7\/9\/2024",
+  "DATA IMPLANTAÇÃO": "5\/26\/2025"
+ },
+ {
+  "N° ID": 3073,
+  "IDEIA ": "colocar um suporte para a prancheta do hora a hora",
+  "STATUS": "Implantada",
+  "DATA APROVAÇÃO": "10\/21\/2024",
+  "DATA IMPLANTAÇÃO": "5\/26\/2025"
+ },
+ {
+  "N° ID": 3143,
+  "IDEIA ": "adaptar os jigs para cada placa, com suporte para pincol",
+  "STATUS": "Implantada",
+  "DATA APROVAÇÃO": "10\/23\/2024",
+  "DATA IMPLANTAÇÃO": "5\/26\/2025"
+ },
+ {
+  "N° ID": 3187,
+  "IDEIA ": " Inclinação das bancadas, posto 18 e 19. Para facilitar velocidade produtiva",
+  "STATUS": "Implantada",
+  "DATA APROVAÇÃO": "10\/29\/2024",
+  "DATA IMPLANTAÇÃO": "5\/26\/2025"
+ },
+ {
+  "N° ID": 2863,
+  "IDEIA ": "Ventilador de teto para cabines de teste e inspeção de TV,",
+  "STATUS": "Implantada",
+  "DATA APROVAÇÃO": "10\/8\/2024",
+  "DATA IMPLANTAÇÃO": "9\/9\/2024"
+ },
+ {
+  "N° ID": 2798,
+  "IDEIA ": "Melhoria no posto de parafusamento das tampas do micro-ondas,",
+  "STATUS": "Implantada",
+  "DATA APROVAÇÃO": " 03\/10\/2024",
+  "DATA IMPLANTAÇÃO": "5\/26\/2025"
+ },
+ {
+  "N° ID": 3077,
+  "IDEIA ": "Fazer um dispositivo para colocar o código de barra de emb. coletiva.",
+  "STATUS": "Implantada",
+  "DATA APROVAÇÃO": "10\/21\/2024",
+  "DATA IMPLANTAÇÃO": "5\/27\/2025"
+ },
+ {
+  "N° ID": 3228,
+  "IDEIA ": "posto:30 meu posto tem suporte ,que segura as caixas nos pratos",
+  "STATUS": "Implantada",
+  "DATA APROVAÇÃO": "10\/30\/2024",
+  "DATA IMPLANTAÇÃO": "5\/26\/2025"
+ },
+ {
+  "N° ID": 3528,
+  "IDEIA ": "Cria um suporte para tampa traseira na linha 3 da TV de 43",
+  "STATUS": "Implantada",
+  "DATA APROVAÇÃO": "12\/5\/2024",
+  "DATA IMPLANTAÇÃO": "5\/26\/2025"
+ },
+ {
+  "N° ID": 4358,
+  "IDEIA ": "Aprimoramento do Carro Manual de Transporte de Arquivo Morto",
+  "STATUS": "Implantada",
+  "DATA APROVAÇÃO": "2\/11\/2025",
+  "DATA IMPLANTAÇÃO": "5\/26\/2025"
+ },
+ {
+  "N° ID": 4697,
+  "IDEIA ": "fazer uma reajuste na no corrimão do suporte dos pratos",
+  "STATUS": "Implantada",
+  "DATA APROVAÇÃO": "2\/20\/2025",
+  "DATA IMPLANTAÇÃO": "5\/26\/2025"
+ },
+ {
+  "N° ID": 4766,
+  "IDEIA ": "fazer um suporte para a graxa. MWO",
+  "STATUS": "Implantada",
+  "DATA APROVAÇÃO": "2\/21\/2025",
+  "DATA IMPLANTAÇÃO": "5\/26\/2025"
+ },
+ {
+  "N° ID": 4899,
+  "IDEIA ": "Melhoramento dos paletes de madeira",
+  "STATUS": "Implantada",
+  "DATA APROVAÇÃO": "2\/25\/2025",
+  "DATA IMPLANTAÇÃO": "5\/26\/2025"
+ },
+ {
+  "N° ID": 4900,
+  "IDEIA ": "Automatizar o teste de impacto traseiro das TVs nas linhas 32, 43 e 50,",
+  "STATUS": "Implantada",
+  "DATA APROVAÇÃO": "2\/25\/2025",
+  "DATA IMPLANTAÇÃO": "5\/26\/2025"
+ },
+ {
+  "N° ID": 6813,
+  "IDEIA ": "Melhoria no Layout TV43”\/TV50” para aumento de Capacidade",
+  "STATUS": "Implantada",
+  "DATA APROVAÇÃO": "4\/16\/2025",
+  "DATA IMPLANTAÇÃO": "5\/28\/2025"
+ },
+ {
+  "N° ID": 6894,
+  "IDEIA ": "Desenvolver Jig de apoio para Transporte da Caixa de Madeira ",
+  "STATUS": "Implantada",
+  "DATA APROVAÇÃO": "4\/21\/2025",
+  "DATA IMPLANTAÇÃO": "5\/28\/2025"
+ },
+ {
+  "N° ID": 6706,
+  "IDEIA ": "Melhoria no posicionamento do ornamento do CM-700 nos carros de transporte",
+  "STATUS": "Implantada",
+  "DATA APROVAÇÃO": "4\/9\/2025",
+  "DATA IMPLANTAÇÃO": "5\/29\/2025"
+ },
+ {
+  "N° ID": 6698,
+  "IDEIA ": "Melhoria com a redução do carro do painel controle montado do CM-700",
+  "STATUS": "Implantada",
+  "DATA APROVAÇÃO": "4\/9\/2025",
+  "DATA IMPLANTAÇÃO": "5\/29\/2025"
+ },
+ {
+  "N° ID": 6688,
+  "IDEIA ": "Ganhar espaço no posto 18 eliminando a estrutura de armazenamento",
+  "STATUS": "Implantada",
+  "DATA APROVAÇÃO": "4\/9\/2025",
+  "DATA IMPLANTAÇÃO": "5\/29\/2025"
+ },
+ {
+  "N° ID": 6686,
+  "IDEIA ": "Melhoria no transporte do mafinite com tecla plástica do CM-400",
+  "STATUS": "Implantada",
+  "DATA APROVAÇÃO": " 09\/04\/2025",
+  "DATA IMPLANTAÇÃO": "5\/29\/2025"
+ },
+ {
+  "N° ID": 6682,
+  "IDEIA ": "Melhoria no posicionamento das bases de compensados",
+  "STATUS": "Implantada",
+  "DATA APROVAÇÃO": "4\/9\/2025",
+  "DATA IMPLANTAÇÃO": "5\/29\/2025"
+ },
+ {
+  "N° ID": 6573,
+  "IDEIA ": "Projetar uma estrutura revestida com material esponjoso para o armazenamento seguro",
+  "STATUS": "Implantada",
+  "DATA APROVAÇÃO": "4\/3\/2025",
+  "DATA IMPLANTAÇÃO": "5\/30\/2025"
+ },
+ {
+  "N° ID": 4759,
+  "IDEIA ": "Adaptar ponta de parafusadeira para linha do TM",
+  "STATUS": "Implantada",
+  "DATA APROVAÇÃO": "2\/21\/2025",
+  "DATA IMPLANTAÇÃO": "5\/30\/2025"
+ },
+ {
+  "N° ID": 1701,
+  "IDEIA ": "Desenvolver dispositivo de ajuste de altura das máquinas de cola",
+  "STATUS": "Implantada",
+  "DATA APROVAÇÃO": "7\/4\/2024",
+  "DATA IMPLANTAÇÃO": "5\/30\/2025"
+ },
+ {
+  "N° ID": 4638,
+  "IDEIA ": "Dispositivo para realizar manutenção nas parafusadeiras pneumáticas.",
+  "STATUS": "Implantada",
+  "DATA APROVAÇÃO": "2\/19\/2025",
+  "DATA IMPLANTAÇÃO": "5\/30\/2025"
+ },
+ {
+  "N° ID": 4215,
+  "IDEIA ": "Criar um jig para parafusdamento da carcaça do Alto falante",
+  "STATUS": "Implantada",
+  "DATA APROVAÇÃO": "2\/6\/2025",
+  "DATA IMPLANTAÇÃO": "5\/30\/2025"
+ },
+ {
+  "N° ID": 5328,
+  "IDEIA ": "Ajuste no nivelamento do suporte dos calços do BBS junto à esteira, ",
+  "STATUS": "Implantada",
+  "DATA APROVAÇÃO": "3\/19\/2025",
+  "DATA IMPLANTAÇÃO": "5\/30\/2025"
+ },
+ {
+  "N° ID": 5255,
+  "IDEIA ": "Melhoria no manuseio da fita com a instalação de um dispensador",
+  "STATUS": "Implantada",
+  "DATA APROVAÇÃO": "3\/13\/2025",
+  "DATA IMPLANTAÇÃO": "5\/30\/2025"
+ },
+ {
+  "N° ID": 6680,
+  "IDEIA ": "Melhoria na proteção dos cantos dos trilhos para evitar danificar gabinete ",
+  "STATUS": "Implantada",
+  "DATA APROVAÇÃO": "4\/9\/2025",
+  "DATA IMPLANTAÇÃO": "5\/26\/2025"
+ },
+ {
+  "N° ID": 6706,
+  "IDEIA ": "Melhoria no posicionamento do ornamento do CM-700 ",
+  "STATUS": "Implantada",
+  "DATA APROVAÇÃO": "4\/9\/2025",
+  "DATA IMPLANTAÇÃO": "5\/30\/2025"
+ },
+ {
+  "N° ID": 3094,
+  "IDEIA ": "confeccionar uma suporte para resíduos de solda na linha A ",
+  "STATUS": "Implantada",
+  "DATA APROVAÇÃO": "10\/22\/2024",
+  "DATA IMPLANTAÇÃO": "5\/26\/2025"
+ },
+ {
+  "N° ID": 4693,
+  "IDEIA ": "distanciar os suporte dos anéis dos pratos",
+  "STATUS": "Implantada",
+  "DATA APROVAÇÃO": "2\/20\/2025",
+  "DATA IMPLANTAÇÃO": "5\/30\/2025"
+ },
+ {
+  "N° ID": 4694,
+  "IDEIA ": "alongar o suporte ou o trilho da caixa micro ondas",
+  "STATUS": "Implantada",
+  "DATA APROVAÇÃO": "2\/20\/2025",
+  "DATA IMPLANTAÇÃO": "5\/30\/2025"
+ },
+ {
+  "N° ID": 4429,
+  "IDEIA ": " fazer um suporte pra guardar a maquininha de fita e a fita",
+  "STATUS": "Implantada",
+  "DATA APROVAÇÃO": "2\/13\/2025",
+  "DATA IMPLANTAÇÃO": "6\/6\/2025"
+ },
+ {
+  "N° ID": 4878,
+  "IDEIA ": "Mesa elevatória de paletes na produção de Micro-Ondas",
+  "STATUS": "Análise",
+  "DATA APROVAÇÃO": "2\/24\/2025"
+ },
+ {
+  "N° ID": 5445,
+  "IDEIA ": "Criar algo que reforce o fechamento da porta na máquina de embalagem ",
+  "STATUS": "Análise",
+  "DATA APROVAÇÃO": "3\/26\/2025"
+ },
+ {
+  "N° ID": 5529,
+  "IDEIA ": "confeccionar um novo suporte para o equipamento de imantação",
+  "STATUS": "Andamento",
+  "DATA APROVAÇÃO": "3\/31\/2025"
+ },
+ {
+  "N° ID": 6699,
+  "IDEIA ": "melhoria nos paletes vai e vem",
+  "STATUS": "Análise",
+  "DATA APROVAÇÃO": " 09\/04\/2025"
+ },
+ {
+  "N° ID": 6910,
+  "IDEIA ": "separador de mola",
+  "STATUS": "Análise",
+  "DATA APROVAÇÃO": "4\/22\/2025"
+ },
+ {
+  "N° ID": 7078,
+  "IDEIA ": "suporte ou gaveta , proximo ao montador , embaixo da bancada",
+  "STATUS": "Análise",
+  "DATA APROVAÇÃO": "4\/28\/2025"
+ },
+ {
+  "N° ID": 4149,
+  "IDEIA ": "Iluminação no posto de Gabinete no MWO",
+  "STATUS": "Andamento",
+  "DATA APROVAÇÃO": "2\/5\/2025"
+ },
+ {
+  "N° ID": 4421,
+  "IDEIA ": "fazer mais gig para fazer mais rápido a produção",
+  "STATUS": "Andamento",
+  "DATA APROVAÇÃO": "2\/13\/2025"
+ },
+ {
+  "N° ID": 4554,
+  "IDEIA ": "extensor de acoplamento entre carrinhos de transporte de produto",
+  "STATUS": "Análise",
+  "DATA APROVAÇÃO": "2\/18\/2025"
+ },
+ {
+  "N° ID": 4459,
+  "IDEIA ": "troca das bancadas do AF",
+  "STATUS": "Análise",
+  "DATA APROVAÇÃO": "2\/14\/2025"
+ },
+ {
+  "N° ID": 4567,
+  "IDEIA ": "Fazer melhorias na cabine de teste",
+  "STATUS": "Análise",
+  "DATA APROVAÇÃO": "2\/18\/2025"
+ },
+ {
+  "N° ID": 4568,
+  "IDEIA ": "Adaptar prateleiras nas cabines de teste.",
+  "STATUS": "Análise",
+  "DATA APROVAÇÃO": "2\/18\/2025"
+ },
+ {
+  "N° ID": 4494,
+  "IDEIA ": "Melhoria no elevador do posto 31 do TM, reduzindo o tamanho do elevador",
+  "STATUS": "Andamento",
+  "DATA APROVAÇÃO": "2\/14\/2025"
+ },
+ {
+  "N° ID": 4456,
+  "IDEIA ": " Carrinho para movimentação de material na produção",
+  "STATUS": "Análise",
+  "DATA APROVAÇÃO": " 13\/02\/2025"
+ },
+ {
+  "N° ID": 1471,
+  "IDEIA ": "Melhorar a inspeção dos Gabinetes Frontais dos aparelhos ",
+  "STATUS": "Análise",
+  "DATA APROVAÇÃO": " 24\/05\/2024"
+ },
+ {
+  "N° ID": 4675,
+  "IDEIA ": "colocar um trilho no posto 11, na parte que os gabinetes, traseiros. De forma que não caia.",
+  "STATUS": "Análise",
+  "OBSERVAÇÃO": "Standby",
+  "DATA APROVAÇÃO": "2\/20\/2025"
+ },
+ {
+  "N° ID": 5044,
+  "IDEIA ": "Confecção de armário com gavetas para armazenar material preparado",
+  "STATUS": "Andamento",
+  "OBSERVAÇÃO": "Bruno Viana",
+  "DATA APROVAÇÃO": "2\/27\/2025"
+ },
+ {
+  "N° ID": 4798,
+  "IDEIA ": "Inclinar a esteira da máquina de cola de frente e chapa.",
+  "STATUS": "Andamento",
+  "OBSERVAÇÃO": "processo demorado",
+  "DATA APROVAÇÃO": "2\/21\/2025"
+ },
+ {
+  "N° ID": 4790,
+  "IDEIA ": "Fazer magazine para painel superior no TW preparado com divisória",
+  "STATUS": "Implantada",
+  "DATA APROVAÇÃO": "2\/21\/2025",
+  "DATA IMPLANTAÇÃO": "6\/9\/2025"
+ },
+ {
+  "N° ID": 7018,
+  "IDEIA ": "uma bancada de apoio para as placas que ficam no final da linha ",
+  "STATUS": "Andamento",
+  "DATA APROVAÇÃO": "4\/4\/2025"
+ },
+ {
+  "N° ID": 7458,
+  "IDEIA ": "Ionizador devido ao acréscimo de saco plástico próximo.",
+  "STATUS": "Análise",
+  "DATA APROVAÇÃO": "5\/22\/2025"
+ },
+ {
+  "N° ID": 7584,
+  "IDEIA ": "Confeccionar suporte duplo, para amostra NG e OK dos modelo BBs.",
+  "STATUS": "Andamento",
+  "DATA APROVAÇÃO": "5\/27\/2025"
+ },
+ {
+  "N° ID": 5229,
+  "IDEIA ": "REFORMULAR AS BANCADAS DE REPARO TÉCNICO",
+  "STATUS": "Andamento",
+  "DATA APROVAÇÃO": "3\/13\/2025"
+ },
+ {
+  "N° ID": 6910,
+  "IDEIA ": "separador de molas para facilitar o serviço",
+  "STATUS": "Reprovada",
+  "OBSERVAÇÃO": "Não aplicável",
+  "DATA APROVAÇÃO": "4\/22\/2025",
+  "DATA IMPLANTAÇÃO": "6\/9\/2025"
+ },
+ {
+  "N° ID": 4757,
+  "IDEIA ": "fazer um suporte para fixar o suporte do ferro de solda, para que não se mova do lugar",
+  "STATUS": "Análise",
+  "DATA APROVAÇÃO": "2\/21\/2025"
+ },
+ {
+  "N° ID": 2328,
+  "IDEIA ": "Base ou suporte para as pranchetas de relatório da IM",
+  "STATUS": "Implantada",
+  "DATA APROVAÇÃO": "8\/22\/2024",
+  "DATA IMPLANTAÇÃO": "6\/9\/2025"
+ },
+ {
+  "N° ID": 5252,
+  "IDEIA ": "Desenvolver um dispositivo para fixar o controle remoto dentro da cabine de teste tv ",
+  "STATUS": "Implantada",
+  "DATA APROVAÇÃO": "3\/13\/2025",
+  "DATA IMPLANTAÇÃO": "6\/9\/2025"
+ },
+ {
+  "N° ID": 7764,
+  "IDEIA ": "Unificação da estrutura da prensa do led com a bancada ",
+  "STATUS": "Implantada",
+  "DATA APROVAÇÃO": " 01\/06\/2025",
+  "DATA IMPLANTAÇÃO": "6\/9\/2025"
+ },
+ {
+  "N° ID": 4495,
+  "IDEIA ": " Melhoria no suporte aos técnicos do TM, adicionando uma porta no posto 34",
+  "STATUS": "Implantada",
+  "DATA APROVAÇÃO": "2\/14\/2025",
+  "DATA IMPLANTAÇÃO": "6\/9\/2025"
+ },
+ {
+  "N° ID": 4105,
+  "IDEIA ": "Trocar o suporte que armazena os ornamento montado da linha do CM-550.",
+  "STATUS": "Implantada",
+  "DATA APROVAÇÃO": "2\/5\/2025",
+  "DATA IMPLANTAÇÃO": "6\/9\/2025"
+ },
+ {
+  "N° ID": 7018,
+  "IDEIA ": "uma bancada de apoio para as placas que ficam no final da linha preparação do cm 550",
+  "STATUS": "Implantada",
+  "DATA APROVAÇÃO": "4\/24\/2025",
+  "DATA IMPLANTAÇÃO": "6\/9\/2025"
+ },
+ {
+  "N° ID": 4576,
+  "IDEIA ": "Colocar ou fazer um pequeno buraco na bancada de onde solda os AF",
+  "STATUS": "Implantada",
+  "DATA APROVAÇÃO": "2\/18\/2025",
+  "DATA IMPLANTAÇÃO": "6\/9\/2025"
+ },
+ {
+  "N° ID": 4276,
+  "IDEIA ": "Otimização do Suporte de Placas para Manuseio Consciente",
+  "STATUS": "Implantada",
+  "DATA APROVAÇÃO": " 07\/02\/2025",
+  "DATA IMPLANTAÇÃO": "6\/9\/2025"
+ },
+ {
+  "N° ID": 5247,
+  "IDEIA ": "Proteção para não deixar sujar o chão",
+  "STATUS": "Implantada",
+  "DATA APROVAÇÃO": "3\/13\/2025",
+  "DATA IMPLANTAÇÃO": "6\/9\/2025"
+ },
+ null,
+ null,
+ null,
+ null,
+ null,
+ null,
+ null,
+ null,
+ null,
+ null,
+ null,
+ null,
+ null,
+ null,
+ null,
+ null,
+ null,
+ null,
+ null,
+ null,
+ null,
+ null,
+ null,
+ null,
+ null,
+ null,
+ null,
+ null,
+ null,
+ null,
+ null,
+ null,
+ null,
+ null,
+ null,
+ null,
+ null,
+ null,
+ null,
+ null,
+ null,
+ null,
+ null,
+ null,
+ null,
+ null,
+ null,
+ null,
+ null,
+ null,
+ null,
+ null,
+ null,
+ null,
+ null,
+ null,
+ null,
+ null,
+ null,
+ null,
+ null,
+ null,
+ null,
+ null,
+ null,
+ null,
+ null,
+ null,
+ null,
+ null,
+ null,
+ null,
+ null,
+ null,
+ null,
+ null,
+ null,
+ null,
+ null,
+ null,
+ null,
+ null,
+ null,
+ null,
+ null,
+ null,
+ null,
+ null,
+ null,
+ null,
+ null,
+ null,
+ null,
+ null,
+ null,
+ null,
+ null,
+ null,
+ null,
+ null,
+ null,
+ null,
+ null,
+ null,
+ null,
+ null,
+ null,
+ null,
+ null,
+ null,
+ null,
+ null,
+ null,
+ null,
+ null,
+ null,
+ null,
+ null,
+ null,
+ null,
+ null,
+ null,
+ null,
+ null,
+ null,
+ null,
+ null,
+ null,
+ null,
+ null,
+ null,
+ null,
+ null,
+ null,
+ null,
+ null,
+ null,
+ null,
+ null,
+ null,
+ null,
+ null,
+ null,
+ null,
+ null,
+ null,
+ null,
+ null,
+ null,
+ null,
+ null,
+ null,
+ null,
+ null,
+ null,
+ null,
+ null,
+ null,
+ null,
+ null,
+ null,
+ null,
+ null,
+ {
+  "N° ID": 4302,
+  "IDEIA ": "Camera da cabine de inspeção -Tv02-43",
+  "STATUS": "Implantada",
+  "DATA APROVAÇÃO": "2\/7\/2025",
+  "DATA IMPLANTAÇÃO": "6\/10\/2025"
+ },
+ {
+  "N° ID": 4301,
+  "IDEIA ": "Mesa sala de inspeção tv02- 43\"",
+  "STATUS": "Implantada",
+  "DATA APROVAÇÃO": "2\/7\/2025",
+  "DATA IMPLANTAÇÃO": "6\/10\/2025"
+ },
+ {
+  "N° ID": 4213,
+  "IDEIA ": "Mesa máquina de fita-Sala limpa- Tv 32",
+  "STATUS": "Implantada",
+  "DATA APROVAÇÃO": "2\/6\/2025",
+  "DATA IMPLANTAÇÃO": "6\/10\/2025"
+ },
+ {
+  "N° ID": 7876,
+  "IDEIA ": "Unificar estruturas de calço e de caixa de embalagem para reduzir tubos e espaço",
+  "STATUS": "Implantada",
+  "DATA APROVAÇÃO": "6\/6\/2025",
+  "DATA IMPLANTAÇÃO": "6\/10\/2025"
+ },
+ {
+  "N° ID": 3046,
+  "IDEIA ": "Bancada de montagem da IM sem espaço",
+  "STATUS": "Implantada",
+  "DATA APROVAÇÃO": " 21\/10\/2024",
+  "DATA IMPLANTAÇÃO": "6\/10\/2025"
+ },
+ {
+  "N° ID": 3792,
+  "IDEIA ": "Bancada para armazenamento das cantoneiras",
+  "STATUS": "Implantada",
+  "DATA APROVAÇÃO": "1\/17\/2025",
+  "DATA IMPLANTAÇÃO": "6\/10\/2025"
+ },
+ {
+  "N° ID": 4615,
+  "IDEIA ": "Reduzir a quantidade de capas\/divisórias transportados nos paletes da linha do TM.",
+  "STATUS": "Implantada",
+  "DATA APROVAÇÃO": "2\/19\/2025",
+  "DATA IMPLANTAÇÃO": "6\/10\/2025"
+ },
+ {
+  "N° ID": 3972,
+  "IDEIA ": "Criar área para armazenamento da PCI Amplificadora TW na Inserção Manual.",
+  "STATUS": "Implantada",
+  "DATA APROVAÇÃO": "1\/28\/2025",
+  "DATA IMPLANTAÇÃO": "6\/10\/2025"
+ },
+ {
+  "N° ID": 2090,
+  "IDEIA ": "Suporte para embalagem",
+  "STATUS": "Implantada",
+  "DATA APROVAÇÃO": "8\/13\/2024",
+  "DATA IMPLANTAÇÃO": "6\/10\/2025"
+ },
+ {
+  "N° ID": 3642,
+  "IDEIA ": "melhoria na bancada de preparação do ornamento vermelho maior do cm-550,",
+  "STATUS": "Implantada",
+  "DATA APROVAÇÃO": "12\/17\/2024",
+  "DATA IMPLANTAÇÃO": "6\/10\/2025"
+ },
+ {
+  "N° ID": 4107,
+  "IDEIA ": "Melhorar o carro de transporte do Painel Traseiro do CM-550",
+  "STATUS": "Implantada",
+  "DATA APROVAÇÃO": "2\/5\/2025",
+  "DATA IMPLANTAÇÃO": "6\/10\/2025"
+ },
+ {
+  "N° ID": 6581,
+  "IDEIA ": "Suporte para colocar parafusadeiras que ficam sem uso.",
+  "STATUS": "Implantada",
+  "DATA APROVAÇÃO": "4\/3\/2025",
+  "DATA IMPLANTAÇÃO": "6\/11\/2025"
+ },
+ {
+  "N° ID": 6754,
+  "IDEIA ": "Melhoria na estrutura da colagem dos banners TW",
+  "STATUS": "Implantada",
+  "DATA APROVAÇÃO": "4\/12\/2025",
+  "DATA IMPLANTAÇÃO": "6\/11\/2025"
+ },
+ {
+  "N° ID": 3218,
+  "IDEIA ": "colocar emborrachados ai redor do teste do display e ao redor do robô que aplica cola",
+  "STATUS": "Implantada",
+  "DATA APROVAÇÃO": "10\/30\/2024",
+  "DATA IMPLANTAÇÃO": "6\/11\/2025"
+ },
+ {
+  "N° ID": 4568,
+  "IDEIA ": "Adaptar prateleiras nas cabines de testes",
+  "STATUS": "Andamento",
+  "DATA APROVAÇÃO": "2\/18\/2025"
+ },
+ {
+  "N° ID": 7906,
+  "IDEIA ": "Fixar base de chapa Inox aproveitada para mesa da sala de processo.",
+  "STATUS": "Implantada",
+  "DATA APROVAÇÃO": "6\/9\/2025",
+  "DATA IMPLANTAÇÃO": "6\/11\/2025"
+ },
+ {
+  "N° ID": 2926,
+  "IDEIA ": "Melhoria no acondicionamento das placas que são enviadas da IM",
+  "STATUS": "Reprovada",
+  "OBSERVAÇÃO": "Não aplicável",
+  "DATA IMPLANTAÇÃO": "6\/11\/2025"
+ },
+ {
+  "N° ID": 5059,
+  "IDEIA ": "suporte para armazenar painel do BX",
+  "STATUS": "Reprovada",
+  "OBSERVAÇÃO": "Não aplicável",
+  "DATA IMPLANTAÇÃO": "6\/11\/2025"
+ },
+ {
+  "N° ID": 5055,
+  "IDEIA ": "Suporte adequado para o soprador térmico BX",
+  "STATUS": "Reprovada",
+  "OBSERVAÇÃO": "Não aplicável",
+  "DATA APROVAÇÃO": "2\/27\/2025",
+  "DATA IMPLANTAÇÃO": "6\/11\/2025"
+ },
+ {
+  "N° ID": 5512,
+  "IDEIA ": "Conseguir aderi um lugar apropriado para por matérias técnicos e de linha",
+  "STATUS": "Análise",
+  "DATA APROVAÇÃO": " 29\/03\/2025"
+ },
+ {
+  "N° ID": 7458,
+  "IDEIA ": "Ionizador devido ao acréscimo de saco plástico próximo.",
+  "STATUS": "Análise",
+  "OBSERVAÇÃO": "só quando rodar MO",
+  "DATA APROVAÇÃO": "5\/22\/2025"
+ },
+ {
+  "N° ID": 4675,
+  "IDEIA ": "colocar um trilho no posto 11, na parte que os gabinetes, traseiros. De forma que não caia",
+  "STATUS": "Análise",
+  "DATA APROVAÇÃO": "2\/20\/2025"
+ },
+ {
+  "N° ID": 5529,
+  "IDEIA ": "Confeccionar um novo suporte para a base que segura o bloco do equipamento de imantação do AF ",
+  "STATUS": "Análise",
+  "OBSERVAÇÃO": "redirecionado",
+  "DATA APROVAÇÃO": "3\/31\/2025"
+ },
+ {
+  "N° ID": 7584,
+  "IDEIA ": "Confeccionar suporte duplo, para amostra NG e OK dos modelo BBs",
+  "STATUS": "Andamento",
+  "DATA APROVAÇÃO": "5\/27\/2025"
+ },
+ {
+  "N° ID": 4055,
+  "IDEIA ": "Instalar barra de proteção",
+  "STATUS": "Andamento",
+  "DATA APROVAÇÃO": "1\/31\/2025"
+ },
+ {
+  "N° ID": 4910,
+  "IDEIA ": "implementação de estações de trabalho económicas",
+  "STATUS": "Análise",
+  "DATA APROVAÇÃO": "2\/25\/2025"
+ },
+ {
+  "N° ID": 4757,
+  "IDEIA ": "fazer um suporte para fixar o suporte do ferro de solda, para que não se mova do lugar",
+  "STATUS": "Andamento",
+  "DATA APROVAÇÃO": "2\/21\/2025"
+ },
+ {
+  "N° ID": 4676,
+  "IDEIA ": "fechar com compensado parte debaixo da bancada da bobina",
+  "STATUS": "Reprovada",
+  "OBSERVAÇÃO": "Não aplicável",
+  "DATA APROVAÇÃO": "2\/20\/2025",
+  "DATA IMPLANTAÇÃO": "6\/13\/2025"
+ },
+ {
+  "N° ID": 2883,
+  "IDEIA ": "Tirar a arquibancada do magnetron da linha do MWO",
+  "STATUS": "Reprovada",
+  "OBSERVAÇÃO": "custo alto\/sesmt",
+  "DATA APROVAÇÃO": "10\/8\/2024",
+  "DATA IMPLANTAÇÃO": "6\/12\/2025"
+ },
+ {
+  "N° ID": 4472,
+  "IDEIA ": "Melhoria na linha da TV32, adicionando duas geladeira",
+  "STATUS": "Reprovada",
+  "OBSERVAÇÃO": "duplicada",
+  "DATA APROVAÇÃO": "2\/14\/2025",
+  "DATA IMPLANTAÇÃO": "6\/12\/2025"
+ },
+ {
+  "N° ID": 4648,
+  "IDEIA ": "Melhoria na transferência da caixa de madeira do carrinho de inox ",
+  "STATUS": "Implantada",
+  "DATA APROVAÇÃO": "2\/19\/2025",
+  "DATA IMPLANTAÇÃO": "6\/12\/2025"
+ },
+ {
+  "N° ID": 4466,
+  "IDEIA ": "Criar um suporte estilo caixote\/molde em L para alinhar o painel de madeira no modelo TM.",
+  "STATUS": "Implantada",
+  "DATA APROVAÇÃO": "2\/14\/2025",
+  "DATA IMPLANTAÇÃO": "6\/12\/2025"
+ },
+ {
+  "N° ID": 5194,
+  "IDEIA ": "Desenvolver um dispositivo para fornecer suporte à região central do alto-falante",
+  "STATUS": "Implantada",
+  "DATA APROVAÇÃO": "3\/12\/2025",
+  "DATA IMPLANTAÇÃO": "6\/12\/2025"
+ },
+ {
+  "N° ID": 8005,
+  "IDEIA ": "Remover a bancada da preparação da bobina",
+  "STATUS": "Implantada",
+  "DATA APROVAÇÃO": "6\/11\/2025",
+  "DATA IMPLANTAÇÃO": "6\/12\/2025"
+ },
+ {
+  "N° ID": 8024,
+  "IDEIA ": " Realocar monitor em um suporte",
+  "STATUS": "Implantada",
+  "DATA APROVAÇÃO": "6\/11\/2025",
+  "DATA IMPLANTAÇÃO": "6\/12\/2025"
+ },
+ {
+  "N° ID": 4171,
+  "IDEIA ": "Tv 32- Suporte onde há colocação de calços ou fitas",
+  "STATUS": "Implantada",
+  "DATA APROVAÇÃO": " 05\/02\/2025",
+  "DATA IMPLANTAÇÃO": "6\/12\/2025"
+ },
+ {
+  "N° ID": 3605,
+  "IDEIA ": "mudar layout da bancada TW",
+  "STATUS": "Implantada",
+  "DATA APROVAÇÃO": "12\/12\/2024",
+  "DATA IMPLANTAÇÃO": "6\/12\/2025"
+ },
+ {
+  "N° ID": 4563,
+  "IDEIA ": " Melhoria no parafusamento dos rodízios do TM instalando batedor no canto da estrutura.",
+  "STATUS": "Andamento",
+  "DATA APROVAÇÃO": "2\/18\/2025"
+ },
+ {
+  "N° ID": 8010,
+  "IDEIA ": "Bancada de apoio para colocar alto-falante preparado",
+  "STATUS": "Andamento",
+  "DATA APROVAÇÃO": "6\/11\/2025"
+ },
+ {
+  "N° ID": 8018,
+  "IDEIA ": "Melhorar a bancada de armazenamento dos JIGS das boninas.",
+  "STATUS": "Andamento",
+  "DATA APROVAÇÃO": "6\/11\/2025"
+ },
+ {
+  "N° ID": 8025,
+  "IDEIA ": "Aumentar o tamanho da bancada da preparação das bobinas",
+  "STATUS": "Andamento",
+  "DATA APROVAÇÃO": "6\/11\/2025"
+ },
+ {
+  "N° ID": 3589,
+  "IDEIA ": "Melhoria de Layout mudando a estrutura dos pratos para o lado da estrutura",
+  "STATUS": "Andamento",
+  "DATA APROVAÇÃO": "12\/11\/2024"
+ },
+ {
+  "N° ID": 8012,
+  "IDEIA ": "Melhoria na bancada da preparação da bobina do 12\"",
+  "STATUS": "Andamento",
+  "DATA APROVAÇÃO": "6\/11\/2025"
+ },
+ {
+  "N° ID": 3350,
+  "IDEIA ": "Aquisição de 2 baldes plásticos com capacidade de 60 litros cada,",
+  "STATUS": "Andamento",
+  "DATA APROVAÇÃO": "11\/14\/2024"
+ }
+],
+"Planilha2":[],
+"Planilha1":[
+ {
+  "STATUS MÊS - MAIO E JUNHO\/2025": "TTL ACUMULADO MÊS",
+  "QTD.": 194
+ },
+ {
+  "STATUS MÊS - MAIO E JUNHO\/2025": "IMPLANTADA",
+  "QTD.": 135
+ },
+ {
+  "STATUS MÊS - MAIO E JUNHO\/2025": "REPROVADA",
+  "QTD.": 20
+ },
+ {
+  "STATUS MÊS - MAIO E JUNHO\/2025": "EM ANDAMENTO",
+  "QTD.": 20
+ },
+ {
+  "STATUS MÊS - MAIO E JUNHO\/2025": "EM ANÁLISE",
+  "QTD.": 19
+ },
+ null,
+ null,
+ {
+  "STATUS MÊS - MAIO E JUNHO\/2025": "TTL ANUAL ENG. DE PROCESSO",
+  "QTD.": "QTD."
+ },
+ {
+  "STATUS MÊS - MAIO E JUNHO\/2025": "TTL 2025",
+  "QTD.": 720,
+  "Column3": 0
+ },
+ {
+  "STATUS MÊS - MAIO E JUNHO\/2025": "PENDENTES",
+  "QTD.": 585,
+  "Column3": 0
+ },
+ {
+  "STATUS MÊS - MAIO E JUNHO\/2025": "IMPLANTADAS",
+  "QTD.": 585,
+  "Column3": 135
+ },
+ null,
+ null,
+ {
+  "STATUS MÊS - MAIO E JUNHO\/2025": "%",
+  "QTD.": 720,
+  "Column3": 1
+ },
+ {
+  "QTD.": 135
+ },
+ {
+  "QTD.": 0.1875
+ },
+ null,
+ null,
+ {
+  "STATUS MÊS - MAIO E JUNHO\/2025": "ACOMPANHAMENTO MENSAL"
+ },
+ {
+  "STATUS MÊS - MAIO E JUNHO\/2025": "JAN"
+ },
+ {
+  "STATUS MÊS - MAIO E JUNHO\/2025": "FEV"
+ },
+ {
+  "STATUS MÊS - MAIO E JUNHO\/2025": "MAR"
+ },
+ {
+  "STATUS MÊS - MAIO E JUNHO\/2025": "ABR"
+ },
+ {
+  "STATUS MÊS - MAIO E JUNHO\/2025": "MAI"
+ },
+ {
+  "STATUS MÊS - MAIO E JUNHO\/2025": "JUN"
+ },
+ {
+  "STATUS MÊS - MAIO E JUNHO\/2025": "JUL"
+ },
+ {
+  "STATUS MÊS - MAIO E JUNHO\/2025": "AGO"
+ },
+ {
+  "STATUS MÊS - MAIO E JUNHO\/2025": "SET"
+ },
+ {
+  "STATUS MÊS - MAIO E JUNHO\/2025": "OUT"
+ },
+ {
+  "STATUS MÊS - MAIO E JUNHO\/2025": "NOV"
+ },
+ {
+  "STATUS MÊS - MAIO E JUNHO\/2025": "DEZ"
+ }
+],
+"DIÁRIO":[
+ {
+  "STATUS MÊS - MAIO E JUNHO\/2025": "TTL MÊS JUNHO",
+  "QTD.": 45
+ },
+ {
+  "STATUS MÊS - MAIO E JUNHO\/2025": "IMPLANTADAS",
+  "QTD.": 15
+ },
+ {
+  "STATUS MÊS - MAIO E JUNHO\/2025": "EM ANDAMENTO",
+  "QTD.": 20
+ },
+ {
+  "STATUS MÊS - MAIO E JUNHO\/2025": "EM ANÁLISE",
+  "QTD.": 5
+ },
+ {
+  "STATUS MÊS - MAIO E JUNHO\/2025": "REPROVADAS",
+  "QTD.": 5
+ }
+]
+}
