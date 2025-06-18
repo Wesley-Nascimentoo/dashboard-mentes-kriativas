@@ -3,6 +3,7 @@ import React, { useState } from 'react';
 import Header from '@/components/Header';
 import Dashboard from '@/components/Dashboard';
 import ConsultaFuncionario from '@/components/ConsultaFuncionario';
+import Implementacoes from '@/components/Implementacoes';
 
 const Index = () => {
   const [activeTab, setActiveTab] = useState('dashboard');
@@ -14,6 +15,7 @@ const Index = () => {
       <main className="container mx-auto px-4 py-6">
         {activeTab === 'dashboard' && <Dashboard />}
         {activeTab === 'consulta' && <ConsultaFuncionario />}
+        {activeTab === 'implementacoes' && <Implementacoes />}
       </main>
 
       <footer className="border-t bg-card mt-12">

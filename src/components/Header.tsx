@@ -2,7 +2,7 @@
 import React from 'react';
 import { Button } from '@/components/ui/button';
 import { useTheme } from '@/contexts/ThemeContext';
-import { Lightbulb, BarChart3, Search } from 'lucide-react';
+import { Lightbulb, BarChart3, Search, CheckCircle } from 'lucide-react';
 
 interface HeaderProps {
   activeTab: string;
@@ -53,6 +53,18 @@ const Header = ({ activeTab, setActiveTab }: HeaderProps) => {
               >
                 <Search className="h-4 w-4" />
                 Consulta Funcionário
+              </Button>
+              <Button
+                variant={activeTab === 'implementacoes' ? 'default' : 'ghost'}
+                onClick={() => setActiveTab('implementacoes')}
+                className={`flex items-center gap-2 transition-all duration-200 ${
+                  activeTab === 'implementacoes' 
+                    ? 'bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-700 hover:to-blue-800 shadow-md' 
+                    : 'hover:bg-blue-50 dark:hover:bg-blue-950'
+                }`}
+              >
+                <CheckCircle className="h-4 w-4" />
+                Implementações
               </Button>
             </nav>
 
