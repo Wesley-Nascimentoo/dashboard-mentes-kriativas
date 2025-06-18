@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { ChartContainer, ChartTooltip, ChartTooltipContent } from '@/components/ui/chart';
@@ -13,7 +12,7 @@ const Implementacoes = () => {
   const implantadas = 147;
   const emAndamento = 20;
   const emAnalise = 19;
-  const reprovadas = 20;
+  const reprovadas = 30;
   const implementadasSemanaAtual = 12;
 
   // Dados para gráfico de pizza - Status das ideias
@@ -26,10 +25,10 @@ const Implementacoes = () => {
 
   // Evolução semanal conforme solicitado
   const evolucaoSemanal = [
-    { semana: 'Semana 1 (26/05)', implementadas: 50 },
-    { semana: 'Semana 2', implementadas: 50 },
-    { semana: 'Semana 3', implementadas: 35 },
-    { semana: 'Semana 4 (atual)', implementadas: 12 },
+    { semana: 'De 06 até 09 de Maio', implementadas: 50 },
+    { semana: 'De 02 até 06 de Junho', implementadas: 50 },
+    { semana: 'De 09 até 13 de Junho', implementadas: 35 },
+    { semana: 'De 16 até 18 de Junho', implementadas: 12 },
   ];
 
   const chartConfig = {
