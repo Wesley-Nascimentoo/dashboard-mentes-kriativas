@@ -9,7 +9,7 @@ import implementsData from '@/data/implementsData.json';
 
 const Implementacoes = () => {
   // Dados fixos conforme solicitado
-  const totalIdeias = 224;
+  const totalIdeias = 227;
   const implantadas = 158;
   const emAndamento = 20;
   const emAnalise = 19;
@@ -57,7 +57,7 @@ const Implementacoes = () => {
               <h1 className="text-3xl font-bold bg-gradient-to-r from-purple-300 to-violet-300 bg-clip-text text-transparent">
                 Central de Implementações
               </h1>
-              <p className="text-slate-300 text-lg">Plataforma Avançada de Rastreamento e Análise de Implementações</p>
+              <p className="text-slate-300 text-lg">Plataforma de Análise de Implementações</p>
             </div>
           </div>
           
