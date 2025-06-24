@@ -24,7 +24,7 @@ const Header = ({ activeTab, setActiveTab }: HeaderProps) => {
               <h1 className="text-3xl font-bold bg-gradient-to-r from-cyan-300 via-blue-300 to-indigo-300 bg-clip-text text-transparent">
                 Mentes Kriativas
               </h1>
-              <p className="text-slate-300 text-lg font-medium">Advanced Innovation Intelligence Platform</p>
+              <p className="text-slate-300 text-lg font-medium">Plataforma Avançada de Inteligência e Inovação</p>
             </div>
           </div>
 
@@ -40,7 +40,7 @@ const Header = ({ activeTab, setActiveTab }: HeaderProps) => {
                 }`}
               >
                 <BarChart3 className="h-5 w-5" />
-                Intelligence Dashboard
+                Dashboard de Inteligência
               </Button>
               <Button
                 variant={activeTab === 'consulta' ? 'default' : 'ghost'}
@@ -52,7 +52,7 @@ const Header = ({ activeTab, setActiveTab }: HeaderProps) => {
                 }`}
               >
                 <Search className="h-5 w-5" />
-                Employee Analytics
+                Análise de Funcionários
               </Button>
               <Button
                 variant={activeTab === 'implementacoes' ? 'default' : 'ghost'}
@@ -64,7 +64,7 @@ const Header = ({ activeTab, setActiveTab }: HeaderProps) => {
                 }`}
               >
                 <CheckCircle className="h-5 w-5" />
-                Implementation Hub
+                Central de Implementações
               </Button>
             </nav>
 

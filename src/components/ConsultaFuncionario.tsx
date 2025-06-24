@@ -1,3 +1,4 @@
+
 import React, { useState } from 'react';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
@@ -85,9 +86,9 @@ const ConsultaFuncionario = () => {
             </div>
             <div>
               <h1 className="text-3xl font-bold bg-gradient-to-r from-emerald-300 to-green-300 bg-clip-text text-transparent">
-                Employee Analytics Platform
+                Plataforma de Análise de Funcionários
               </h1>
-              <p className="text-slate-300 text-lg">Advanced Performance Intelligence System</p>
+              <p className="text-slate-300 text-lg">Sistema Avançado de Inteligência de Performance</p>
             </div>
           </div>
         </div>
@@ -100,9 +101,9 @@ const ConsultaFuncionario = () => {
                 <Search className="h-6 w-6 text-white" />
               </div>
               <div>
-                <CardTitle className="text-xl font-bold text-slate-800 dark:text-slate-200">Employee Performance Analytics</CardTitle>
+                <CardTitle className="text-xl font-bold text-slate-800 dark:text-slate-200">Análise de Performance de Funcionários</CardTitle>
                 <CardDescription className="text-slate-600 dark:text-slate-400">
-                  Enter employee ID to access detailed performance metrics
+                  Digite a matrícula do funcionário para acessar métricas detalhadas de performance
                 </CardDescription>
               </div>
             </div>
@@ -111,11 +112,11 @@ const ConsultaFuncionario = () => {
             <div className="flex gap-4 items-end">
               <div className="flex-1">
                 <label htmlFor="matricula" className="text-sm font-semibold mb-3 block text-slate-700 dark:text-slate-300">
-                  Employee ID / Matrícula
+                  Matrícula do Funcionário
                 </label>
                 <Input
                   id="matricula"
-                  placeholder="Enter employee ID (e.g., 500360, 501075...)"
+                  placeholder="Digite a matrícula (ex: 500360, 501075...)"
                   value={matriculaFuncionario}
                   onChange={(e) => setMatriculaFuncionario(e.target.value)}
                   onKeyPress={(e) => e.key === 'Enter' && buscarFuncionario()}
@@ -130,18 +131,18 @@ const ConsultaFuncionario = () => {
                 {carregando ? (
                   <div className="flex items-center gap-2">
                     <Activity className="h-4 w-4 animate-spin" />
-                    Analyzing...
+                    Analisando...
                   </div>
                 ) : (
                   <div className="flex items-center gap-2">
                     <Search className="h-4 w-4" />
-                    Analyze
+                    Analisar
                   </div>
                 )}
               </Button>
               {funcionarioEncontrado && (
                 <Button variant="outline" onClick={limparConsulta} className="h-12 px-6 rounded-xl border-2">
-                  New Search
+                  Nova Consulta
                 </Button>
               )}
             </div>
@@ -174,7 +175,7 @@ const ConsultaFuncionario = () => {
                     <div className="w-12 h-12 bg-gradient-to-br from-blue-500 to-indigo-600 rounded-xl flex items-center justify-center mx-auto mb-4 shadow-lg">
                       <Info className="h-6 w-6 text-white" />
                     </div>
-                    <p className="text-sm font-medium text-slate-600 dark:text-slate-400 mb-2">Employee ID</p>
+                    <p className="text-sm font-medium text-slate-600 dark:text-slate-400 mb-2">Matrícula</p>
                     <div className="text-2xl font-bold bg-gradient-to-r from-blue-600 to-indigo-700 bg-clip-text text-transparent">
                       {funcionarioEncontrado.id}
                     </div>
@@ -183,7 +184,7 @@ const ConsultaFuncionario = () => {
                     <div className="w-12 h-12 bg-gradient-to-br from-emerald-500 to-green-600 rounded-xl flex items-center justify-center mx-auto mb-4 shadow-lg">
                       <Activity className="h-6 w-6 text-white" />
                     </div>
-                    <p className="text-sm font-medium text-slate-600 dark:text-slate-400 mb-2">Total Ideas</p>
+                    <p className="text-sm font-medium text-slate-600 dark:text-slate-400 mb-2">Total de Ideias</p>
                     <div className="text-3xl font-bold bg-gradient-to-r from-emerald-600 to-green-700 bg-clip-text text-transparent">
                       {funcionarioEncontrado.ideiasSubmitidas}
                     </div>
@@ -192,7 +193,7 @@ const ConsultaFuncionario = () => {
                     <div className="w-12 h-12 bg-gradient-to-br from-purple-500 to-violet-600 rounded-xl flex items-center justify-center mx-auto mb-4 shadow-lg">
                       <Target className="h-6 w-6 text-white" />
                     </div>
-                    <p className="text-sm font-medium text-slate-600 dark:text-slate-400 mb-2">Annual Progress</p>
+                    <p className="text-sm font-medium text-slate-600 dark:text-slate-400 mb-2">Progresso Anual</p>
                     <div className="text-3xl font-bold bg-gradient-to-r from-purple-600 to-violet-700 bg-clip-text text-transparent">
                       {funcionarioEncontrado.percentualAnual}%
                     </div>
@@ -207,7 +208,7 @@ const ConsultaFuncionario = () => {
                         ? 'bg-gradient-to-r from-green-500 to-emerald-600 text-white' 
                         : 'bg-gradient-to-r from-amber-500 to-orange-600 text-white'
                     }`}>
-                      {funcionarioEncontrado.atingiuMetaAnual ? 'Target Achieved' : 'In Progress'}
+                      {funcionarioEncontrado.atingiuMetaAnual ? 'Meta Atingida' : 'Em Progresso'}
                     </Badge>
                   </div>
                 </div>
@@ -224,19 +225,19 @@ const ConsultaFuncionario = () => {
                     ) : (
                       <Circle className="h-6 w-6 text-amber-600" />
                     )}
-                    Current Target Performance
+                    Performance da Meta Atual
                   </CardTitle>
                 </CardHeader>
                 <CardContent className="pt-6">
                   <div className="space-y-4">
                     <div className="flex justify-between items-center">
-                      <span className="text-sm font-medium text-slate-600 dark:text-slate-400">Progress Status</span>
+                      <span className="text-sm font-medium text-slate-600 dark:text-slate-400">Status do Progresso</span>
                       <Badge className={`px-4 py-2 rounded-xl font-semibold ${
                         funcionarioEncontrado.atingiuMetaAtual 
                           ? 'bg-gradient-to-r from-green-500 to-emerald-600 text-white' 
                           : 'bg-gradient-to-r from-amber-500 to-orange-600 text-white'
                       }`}>
-                        {funcionarioEncontrado.atingiuMetaAtual ? 'Target Achieved' : 'In Progress'}
+                        {funcionarioEncontrado.atingiuMetaAtual ? 'Meta Atingida' : 'Em Progresso'}
                       </Badge>
                     </div>
                     <div className="text-2xl font-bold text-slate-800 dark:text-slate-200">
@@ -258,13 +259,13 @@ const ConsultaFuncionario = () => {
                     ) : (
                       <Circle className="h-6 w-6 text-blue-600" />
                     )}
-                    Annual Target Performance
+                    Performance da Meta Anual
                   </CardTitle>
                 </CardHeader>
                 <CardContent className="pt-6">
                   <div className="space-y-4">
                     <div className="flex justify-between items-center">
-                      <span className="text-sm font-medium text-slate-600 dark:text-slate-400">Annual Progress</span>
+                      <span className="text-sm font-medium text-slate-600 dark:text-slate-400">Progresso Anual</span>
                       <Badge className={`px-4 py-2 rounded-xl font-semibold ${
                         funcionarioEncontrado.atingiuMetaAnual 
                           ? 'bg-gradient-to-r from-green-500 to-emerald-600 text-white' 
@@ -298,10 +299,10 @@ const ConsultaFuncionario = () => {
                   </div>
                   <div>
                     <CardTitle className="text-2xl font-bold bg-gradient-to-r from-emerald-300 to-green-300 bg-clip-text text-transparent">
-                      {funcionarioEncontrado.atingiuMetaAnual ? '🎉 Outstanding Performance!' : '💡 Innovation Journey Continues!'}
+                      {funcionarioEncontrado.atingiuMetaAnual ? '🎉 Performance Excepcional!' : '💡 Jornada de Inovação Continua!'}
                     </CardTitle>
                     <CardDescription className="text-slate-300 text-lg mt-2">
-                      Advanced Performance Intelligence Report
+                      Relatório Avançado de Inteligência de Performance
                     </CardDescription>
                   </div>
                 </div>
@@ -310,10 +311,10 @@ const ConsultaFuncionario = () => {
                 <div className="text-center p-6 bg-white/10 backdrop-blur-md rounded-2xl shadow-xl border border-white/20">
                   <p className="text-emerald-200 text-lg leading-relaxed">
                     {funcionarioEncontrado.atingiuMetaAnual 
-                      ? 'Congratulations! You have exceeded your annual innovation target. Your contribution to the Mentes Kriativas program demonstrates exceptional creativity and commitment to continuous improvement.'
+                      ? 'Parabéns! Você superou sua meta anual de inovação. Sua contribuição para o programa Mentes Kriativas demonstra criatividade excepcional e compromisso com a melhoria contínua.'
                       : funcionarioEncontrado.atingiuMetaAtual
-                        ? 'Excellent progress! You have achieved your current target milestone. Continue your innovation journey to reach the annual objective and contribute to organizational excellence.'
-                        : 'Your innovation journey is making valuable impact. Every idea submitted contributes to the collective intelligence of our organization. Keep innovating and exploring new possibilities!'}
+                        ? 'Excelente progresso! Você atingiu sua meta atual. Continue sua jornada de inovação para alcançar o objetivo anual e contribuir para a excelência organizacional.'
+                        : 'Sua jornada de inovação está gerando impacto valioso. Cada ideia submetida contribui para a inteligência coletiva de nossa organização. Continue inovando e explorando novas possibilidades!'}
                   </p>
                 </div>
               </CardContent>
@@ -327,26 +328,26 @@ const ConsultaFuncionario = () => {
             <CardHeader className="border-b bg-gradient-to-r from-slate-100 to-blue-50 dark:from-slate-800 dark:to-blue-900 rounded-t-lg">
               <CardTitle className="flex items-center gap-3 text-slate-800 dark:text-slate-200">
                 <Info className="h-6 w-6 text-blue-600" />
-                How to Use Analytics Platform
+                Como Usar a Plataforma de Análise
               </CardTitle>
             </CardHeader>
             <CardContent className="pt-6">
               <div className="space-y-4 text-slate-600 dark:text-slate-400">
                 <div className="flex items-center gap-3 p-4 bg-blue-50 dark:bg-blue-950 rounded-xl">
                   <Search className="h-5 w-5 text-blue-600" />
-                  <p className="font-medium">Enter your employee ID in the search field above</p>
+                  <p className="font-medium">Digite sua matrícula no campo de busca acima</p>
                 </div>
                 <div className="flex items-center gap-3 p-4 bg-emerald-50 dark:bg-emerald-950 rounded-xl">
                   <Activity className="h-5 w-5 text-emerald-600" />
-                  <p className="font-medium">Click "Analyze" to access your performance metrics and target progress</p>
+                  <p className="font-medium">Clique em "Analisar" para acessar suas métricas de performance e progresso das metas</p>
                 </div>
                 <div className="flex items-center gap-3 p-4 bg-purple-50 dark:bg-purple-950 rounded-xl">
                   <Database className="h-5 w-5 text-purple-600" />
-                  <p className="font-medium">Sample Employee IDs for testing: 500360, 501075, 501211, 502559</p>
+                  <p className="font-medium">Matrículas de exemplo para teste: 500360, 501075, 501211, 502559</p>
                 </div>
                 <div className="flex items-center gap-3 p-4 bg-amber-50 dark:bg-amber-950 rounded-xl">
                   <Building2 className="h-5 w-5 text-amber-600" />
-                  <p className="font-medium">For technical support or questions, contact Human Resources</p>
+                  <p className="font-medium">Para suporte técnico ou dúvidas, entre em contato com Recursos Humanos</p>
                 </div>
               </div>
             </CardContent>

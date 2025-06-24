@@ -66,9 +66,9 @@ const Dashboard = () => {
           </div>
           <div>
             <h1 className="text-3xl font-bold bg-gradient-to-r from-cyan-300 to-blue-300 bg-clip-text text-transparent">
-              Intelligence Dashboard
+              Dashboard de Inteligência
             </h1>
-            <p className="text-slate-300 text-lg">Advanced Analytics & Innovation Tracking</p>
+            <p className="text-slate-300 text-lg">Análise Avançada e Rastreamento de Inovação</p>
           </div>
         </div>
         
@@ -308,7 +308,7 @@ const Dashboard = () => {
             </div>
             <div>
               <CardTitle className="text-3xl font-bold bg-gradient-to-r from-cyan-300 to-blue-300 bg-clip-text text-transparent">
-                Innovation Intelligence Report
+                Relatório de Inteligência de Inovação
               </CardTitle>
               <CardDescription className="text-slate-300 text-lg mt-2">
                 Sistema de Monitoramento Avançado - Programa Mentes Kriativas
