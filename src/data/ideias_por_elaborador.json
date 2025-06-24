@@ -47,7 +47,7 @@
     {
         "id":"501070",
         "nome":"Rodrigo jenner de oliveira pereira",
-        "quantidade_ideias":2
+        "quantidade_ideias":3
     },
     {
         "id":"501071",
@@ -268,5 +268,10 @@
         "id":"502739",
         "nome":"Angelo rafael de souza rocha",
         "quantidade_ideias":1
-    }
+    },
+    {
+        "id":"503016",
+        "nome":"Clean de Oliveira Martins",
+        "quantidade_ideias":1
+    },
 ]
