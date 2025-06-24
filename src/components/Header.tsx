@@ -40,7 +40,7 @@ const Header = ({ activeTab, setActiveTab }: HeaderProps) => {
                 }`}
               >
                 <BarChart3 className="h-5 w-5" />
-                Dashboard de Inteligência
+                Dashboard de envio de ideias
               </Button>
               <Button
                 variant={activeTab === 'consulta' ? 'default' : 'ghost'}
