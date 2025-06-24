@@ -66,9 +66,9 @@ const Dashboard = () => {
           </div>
           <div>
             <h1 className="text-3xl font-bold bg-gradient-to-r from-cyan-300 to-blue-300 bg-clip-text text-transparent">
-              Dashboard de Inteligência
+              Dashboard de envio de ideias
             </h1>
-            <p className="text-slate-300 text-lg">Análise Avançada e Rastreamento de Inovação</p>
+            <p className="text-slate-300 text-lg">Análise Avançada e Rastreamento de Submissão de ideias</p>
           </div>
         </div>
         
