@@ -88,7 +88,7 @@ const ConsultaFuncionario = () => {
               <h1 className="text-3xl font-bold bg-gradient-to-r from-emerald-300 to-green-300 bg-clip-text text-transparent">
                 Plataforma de Análise de Funcionários
               </h1>
-              <p className="text-slate-300 text-lg">Sistema Avançado de Inteligência de Performance</p>
+              <p className="text-slate-300 text-lg">Sistema de Performance</p>
             </div>
           </div>
         </div>
