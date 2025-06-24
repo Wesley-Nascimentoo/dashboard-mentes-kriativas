@@ -50,12 +50,10 @@ const Dashboard = () => {
     Percentual: Math.round((item.quantidade_ideias / META_MENSAL) * 100)
   }));
 
-  // Dados para gráfico semanal (últimas 8 semanas)
-  const dadosGraficoSemanal = ideiasPorSemana.slice(-8).map(item => ({
-    semana: item.semana,
-    Meta: META_SEMANAL,
-    Submissões: item.quantidade_ideias,
-    Percentual: Math.round((item.quantidade_ideias / META_SEMANAL) * 100)
+  // Dados para gráfico de evolução mensal com pontos
+  const dadosEvolucaoMensal = ideiasPorMes.map(item => ({
+    mes: item.mes.substring(0, 3),
+    ideias: item.quantidade_ideias
   }));
 
   return (
@@ -191,31 +189,37 @@ const Dashboard = () => {
                 <TrendingUp className="h-4 w-4 text-white" />
               </div>
               <div>
-                <CardTitle className="text-lg">Evolução Semanal</CardTitle>
+                <CardTitle className="text-lg">Evolução Mensal</CardTitle>
                 <CardDescription>
-                  Submissões vs Meta Semanal (últimas 8 semanas)
+                  Evolução das submissões de ideias por mês
                 </CardDescription>
               </div>
             </div>
           </CardHeader>
           <CardContent className="pt-6">
             <ResponsiveContainer width="100%" height={320}>
-              <BarChart data={dadosGraficoSemanal} margin={{ top: 10, right: 30, left: 0, bottom: 0 }}>
+              <LineChart data={dadosEvolucaoMensal} margin={{ top: 10, right: 30, left: 0, bottom: 0 }}>
                 <CartesianGrid strokeDasharray="3 3" className="opacity-30" />
-                <XAxis dataKey="semana" fontSize={10} angle={-45} textAnchor="end" height={60} />
+                <XAxis dataKey="mes" fontSize={12} />
                 <YAxis fontSize={12} />
                 <Tooltip 
-                  formatter={(value, name) => [value, name === 'Meta' ? 'Meta' : 'Submissões']}
-                  labelFormatter={(label) => `${label}`}
+                  formatter={(value) => [value, 'Ideias Submetidas']}
+                  labelFormatter={(label) => `Mês: ${label}`}
                   contentStyle={{ 
                     backgroundColor: 'hsl(var(--card))', 
                     border: '1px solid hsl(var(--border))',
                     borderRadius: '8px'
                   }}
                 />
-                <Bar dataKey="Meta" fill="#86efac" name="Meta" radius={[2, 2, 0, 0]} />
-                <Bar dataKey="Submissões" fill="#16a34a" name="Submissões" radius={[2, 2, 0, 0]} />
-              </BarChart>
+                <Line 
+                  type="monotone" 
+                  dataKey="ideias" 
+                  stroke="#16a34a" 
+                  strokeWidth={3}
+                  dot={{ fill: '#16a34a', strokeWidth: 2, r: 6 }}
+                  activeDot={{ r: 8, stroke: '#16a34a', strokeWidth: 2 }}
+                />
+              </LineChart>
             </ResponsiveContainer>
           </CardContent>
         </Card>
