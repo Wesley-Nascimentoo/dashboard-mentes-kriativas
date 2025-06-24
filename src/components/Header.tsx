@@ -2,7 +2,7 @@
 import React from 'react';
 import { Button } from '@/components/ui/button';
 import { useTheme } from '@/contexts/ThemeContext';
-import { Lightbulb, BarChart3, Search, CheckCircle, Zap } from 'lucide-react';
+import { Lightbulb, BarChart3, Search, CheckCircle, Zap,  Lightbulb} from 'lucide-react';
 
 interface HeaderProps {
   activeTab: string;
@@ -18,13 +18,13 @@ const Header = ({ activeTab, setActiveTab }: HeaderProps) => {
         <div className="flex items-center justify-between">
           <div className="flex items-center gap-6">
             <div className="w-16 h-16 bg-gradient-to-br from-cyan-400 via-blue-500 to-indigo-600 rounded-2xl flex items-center justify-center shadow-2xl border border-white/20">
-              <Zap className="h-8 w-8 text-white" />
+              <Lightbulb className="h-8 w-8 text-white" />
             </div>
             <div>
               <h1 className="text-3xl font-bold bg-gradient-to-r from-cyan-300 via-blue-300 to-indigo-300 bg-clip-text text-transparent">
                 Mentes Kriativas
               </h1>
-              <p className="text-slate-300 text-lg font-medium">Plataforma Avançada de Inteligência e Inovação</p>
+              <p className="text-slate-300 text-lg font-medium">Plataforma Avançada Inovação</p>
             </div>
           </div>
 
