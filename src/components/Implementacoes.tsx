@@ -9,12 +9,12 @@ import implementsData from '@/data/implementsData.json';
 
 const Implementacoes = () => {
   // Dados fixos conforme solicitado
-  const totalIdeias = 216;
-  const implantadas = 147;
+  const totalIdeias = 224;
+  const implantadas = 158;
   const emAndamento = 20;
   const emAnalise = 19;
   const reprovadas = 30;
-  const implementadasSemanaAtual = 12;
+  const implementadasSemanaAtual = 3;
 
   // Dados para gráfico de pizza - Status das ideias
   const statusData = [
@@ -29,7 +29,8 @@ const Implementacoes = () => {
     { semana: 'De 06 até 09 de Maio', implementadas: 50 },
     { semana: 'De 02 até 06 de Junho', implementadas: 50 },
     { semana: 'De 09 até 13 de Junho', implementadas: 35 },
-    { semana: 'De 16 até 18 de Junho', implementadas: 12 },
+    { semana: 'De 16 até 20 de Junho', implementadas: 20 },
+    { semana: 'De 23 até 24 de Junho', implementadas: 3 }
   ];
 
   const chartConfig = {
