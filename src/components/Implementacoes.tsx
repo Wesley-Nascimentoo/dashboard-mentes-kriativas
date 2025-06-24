@@ -54,7 +54,7 @@ const Implementacoes = () => {
             </div>
             <div>
               <h1 className="text-3xl font-bold bg-gradient-to-r from-purple-300 to-violet-300 bg-clip-text text-transparent">
-                Central de Inteligência de Implementações
+                Central de Implementações
               </h1>
               <p className="text-slate-300 text-lg">Plataforma Avançada de Rastreamento e Análise de Implementações</p>
             </div>
