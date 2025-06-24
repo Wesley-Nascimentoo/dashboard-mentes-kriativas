@@ -1,0 +1,26 @@
+[
+    {
+        "mes":"Janeiro",
+        "quantidade_ideias":87
+    },
+    {
+        "mes":"Fevereiro",
+        "quantidade_ideias":180
+    },
+    {
+        "mes":"Março",
+        "quantidade_ideias":76
+    },
+    {
+        "mes":"Abril",
+        "quantidade_ideias":75
+    },
+    {
+        "mes":"Maio",
+        "quantidade_ideias":29
+    },
+    {
+        "mes":"Junho",
+        "quantidade_ideias":65
+    }
+]
