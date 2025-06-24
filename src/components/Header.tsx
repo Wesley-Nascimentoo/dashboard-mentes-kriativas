@@ -24,7 +24,6 @@ const Header = ({ activeTab, setActiveTab }: HeaderProps) => {
               <h1 className="text-3xl font-bold bg-gradient-to-r from-cyan-300 via-blue-300 to-indigo-300 bg-clip-text text-transparent">
                 Mentes Kriativas
               </h1>
-              <p className="text-slate-300 text-lg font-medium">Plataforma Avançada Inovação</p>
             </div>
           </div>
 
